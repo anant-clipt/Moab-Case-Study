@@ -72,3 +72,50 @@ def call_json(method, path, body=None, headers=None):
     if not raw:
         return status, hdrs, None
     return status, hdrs, json.loads(raw.decode("utf-8"))
+
+
+def call_result(method, path, body=None, headers=None):
+    """Like call_json, but a 4xx comes back as data instead of crashing.
+
+    429 and 503 still wait and retry. A write that gets 503 can use the same
+    Idempotency-Key on the next try.
+    """
+    global _last_call
+    url = resolve(path)
+    data = None
+    hdrs = {"Accept": "application/json, text/csv, */*"}
+    if body is not None:
+        data = json.dumps(body).encode()
+        hdrs["Content-Type"] = "application/json"
+    if headers:
+        hdrs.update(headers)
+
+    last_status = None
+    last_body = None
+    for attempt in range(8):
+        wait = _last_call + MIN_GAP - time.monotonic()
+        if wait > 0:
+            time.sleep(wait)
+        req = urllib.request.Request(url, data=data, headers=hdrs, method=method)
+        _last_call = time.monotonic()
+        try:
+            with urllib.request.urlopen(req, timeout=90) as resp:
+                raw = resp.read()
+                parsed = json.loads(raw.decode("utf-8")) if raw else None
+                return resp.status, dict(resp.headers), parsed
+        except urllib.error.HTTPError as err:
+            err_body = err.read()
+            text = err_body.decode("utf-8", errors="replace")
+            try:
+                parsed = json.loads(text) if text else None
+            except json.JSONDecodeError:
+                parsed = {"raw": text[:800]}
+            last_status = err.code
+            last_body = parsed
+            if err.code in (429, 503):
+                retry = err.headers.get("Retry-After")
+                delay = float(retry) if retry else min(2 ** attempt, 20)
+                time.sleep(delay)
+                continue
+            return err.code, dict(err.headers), parsed
+    return last_status, {}, last_body
