@@ -1,3 +1,1 @@
-# Note to Carmen
-
-We will write this after we have looked at the data and loaded what we can. It stays empty on purpose until then.
+The note Carmen gets is `data/review/review_summary.md`. That file is the one we will submit.

@@ -60,6 +60,26 @@ def po_choice(rows):
     return None
 
 
+def ask_from(text):
+    """Turn the issue into the one thing Carmen should do about it."""
+    asks = []
+    if "extension" in text:
+        asks.append("Keystone cannot store an extension. Send it only if you need it written down somewhere else.")
+    if "area code" in text or "could not read the phone" in text:
+        asks.append("Send a phone number with an area code if you want one saved.")
+    if "email" in text:
+        asks.append("Send the full email address if you want it saved.")
+    if "deposit" in text:
+        asks.append("Send the real deposit amount if there is one.")
+    if "parent" in text:
+        asks.append("Tell us which company is the parent.")
+    if "main contact" in text:
+        asks.append("Tell us who the main contact should be.")
+    if "payment terms" in text:
+        asks.append("Tell us if we read the payment terms wrong.")
+    return " ".join(asks)
+
+
 def add_review(bucket, sheet, headers, values, legacy_id, status, issue, need):
     row = {column: "" if values.get(column) is None else str(values.get(column)) for column in headers}
     row["legacy_id"] = legacy_id
@@ -197,11 +217,12 @@ def decide():
             notes.append(phone_note)
         if email_note:
             notes.append(email_note)
+        issue = " ".join(notes)
         add_review(
             reviews, "vendors", vendor_headers, values, vendor["VENDOR_ID"],
             "loaded_with_changes",
-            " ".join(notes),
-            "Tell us if we read the payment terms wrong.",
+            issue,
+            ask_from(issue),
         )
 
     # Accounts. Parents are attached after we know which links make a loop.
@@ -324,11 +345,12 @@ def decide():
         notes = [note for note in (email_note, phone_note) if note]
         if notes:
             values["account_identifier"] = kept
+            issue = " ".join(notes)
             add_review(
                 reviews, "contacts", contact_headers, values, person["OCC_ID"],
                 "loaded_with_changes",
-                " ".join(notes),
-                "Send a corrected email or phone if you want it on the account.",
+                issue,
+                ask_from(issue),
             )
 
     # Main contact, only when that person really belongs to the account.
@@ -378,11 +400,12 @@ def decide():
                 "requires_po_number": "" if "requires_po_number" not in record else str(record["requires_po_number"]).lower(),
                 "primary_contact_email": primary_email.get(ident, ""),
             }
+            issue = " ".join(notes)
             add_review(
                 reviews, "accounts", account_headers, values, ident,
                 "loaded_with_changes",
-                " ".join(notes),
-                "Send the right phone, email, deposit, parent company, or main contact if you want those filled in.",
+                issue,
+                ask_from(issue),
             )
 
     for dropped, kept in sorted(merges.items()):
@@ -694,7 +717,7 @@ def decide():
             add_review(
                 reviews, "leases", lease_headers, lease["values"], lease["identifier"],
                 "not_loaded",
-                f"This lease and {others} are both open for apartment {lease['door']} at {lease['building_name']} on the same days. We could not tell which one is the real lease, so we left them all out.",
+                f"This lease and {others} are both open for apartment {lease['door']} at {lease['building_name']} on the same days. We could not tell which one is the real lease, so we left both out.",
                 "Tell us which lease is the real one. If one of them ended, send the end date.",
             )
             continue
