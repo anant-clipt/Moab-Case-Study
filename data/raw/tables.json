@@ -1,0 +1,49 @@
+{
+  "tables": [
+    {
+      "table": "BLDGS",
+      "access": "api",
+      "rows": 7
+    },
+    {
+      "table": "LEASES",
+      "access": "export",
+      "rows": 166
+    },
+    {
+      "table": "LEASE_CHARGES",
+      "access": "export",
+      "rows": 253
+    },
+    {
+      "table": "OCCUPANTS",
+      "access": "api",
+      "rows": 212
+    },
+    {
+      "table": "PORTFOLIOS",
+      "access": "api",
+      "rows": 3
+    },
+    {
+      "table": "TENANTS",
+      "access": "export",
+      "rows": 149
+    },
+    {
+      "table": "UNITS",
+      "access": "export",
+      "rows": 91
+    },
+    {
+      "table": "UNIT_TYPES",
+      "access": "api",
+      "rows": 6
+    },
+    {
+      "table": "VENDORS",
+      "access": "api",
+      "rows": 12
+    }
+  ]
+}

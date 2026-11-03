@@ -1,0 +1,463 @@
+{
+  "entities": {
+    "accounts": {
+      "description": "Who signs and pays for leases: a person or a business.",
+      "depends_on": [],
+      "unique": [
+        "identifier"
+      ],
+      "fields": [
+        {
+          "name": "identifier",
+          "type": "str",
+          "required": true,
+          "max_length": 50
+        },
+        {
+          "name": "name",
+          "type": "str",
+          "required": true,
+          "max_length": 200
+        },
+        {
+          "name": "type",
+          "type": "enum",
+          "required": true,
+          "enum": [
+            "individual",
+            "business"
+          ]
+        },
+        {
+          "name": "parent_account_id",
+          "type": "ref",
+          "required": false,
+          "references": "accounts",
+          "description": "Parent business account. The parent must already exist; no cycles."
+        },
+        {
+          "name": "billing_email",
+          "type": "email",
+          "required": false
+        },
+        {
+          "name": "phone",
+          "type": "phone",
+          "required": false,
+          "format": "+1 and 10 digits, e.g. +13035551234"
+        },
+        {
+          "name": "security_deposit",
+          "type": "decimal",
+          "required": false,
+          "format": "0 or more, as a string like \"1450.00\" or a number; stored to 2 places"
+        },
+        {
+          "name": "requires_po_number",
+          "type": "bool",
+          "required": false,
+          "description": "If true, every lease for this account needs po_number."
+        },
+        {
+          "name": "primary_contact_id",
+          "type": "ref",
+          "required": false,
+          "references": "contacts",
+          "description": "Must be a contact that belongs to this account."
+        }
+      ]
+    },
+    "contacts": {
+      "description": "People on an account (occupants, billing contacts). No identifier of their own.",
+      "depends_on": [
+        "accounts"
+      ],
+      "unique": [],
+      "fields": [
+        {
+          "name": "account_id",
+          "type": "ref",
+          "required": true,
+          "references": "accounts"
+        },
+        {
+          "name": "first_name",
+          "type": "str",
+          "required": true,
+          "max_length": 100
+        },
+        {
+          "name": "last_name",
+          "type": "str",
+          "required": true,
+          "max_length": 100
+        },
+        {
+          "name": "email",
+          "type": "email",
+          "required": false
+        },
+        {
+          "name": "phone",
+          "type": "phone",
+          "required": false,
+          "format": "+1 and 10 digits, e.g. +13035551234"
+        }
+      ]
+    },
+    "leases": {
+      "description": "A lease and its monthly charges. A unit can't be on two overlapping active/notice leases.",
+      "depends_on": [
+        "accounts",
+        "properties",
+        "contacts",
+        "units"
+      ],
+      "unique": [
+        "identifier"
+      ],
+      "fields": [
+        {
+          "name": "identifier",
+          "type": "str",
+          "required": true,
+          "max_length": 50
+        },
+        {
+          "name": "account_id",
+          "type": "ref",
+          "required": true,
+          "references": "accounts"
+        },
+        {
+          "name": "property_id",
+          "type": "ref",
+          "required": true,
+          "references": "properties"
+        },
+        {
+          "name": "contact_id",
+          "type": "ref",
+          "required": false,
+          "references": "contacts",
+          "description": "Must belong to the lease's account."
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true,
+          "enum": [
+            "draft",
+            "pending",
+            "active",
+            "notice",
+            "ended",
+            "cancelled"
+          ]
+        },
+        {
+          "name": "start_date",
+          "type": "date",
+          "required": true,
+          "format": "YYYY-MM-DD"
+        },
+        {
+          "name": "end_date",
+          "type": "date",
+          "required": true,
+          "format": "YYYY-MM-DD",
+          "description": "On or after start_date."
+        },
+        {
+          "name": "po_number",
+          "type": "str",
+          "required": false,
+          "max_length": 50,
+          "description": "Required when the account has requires_po_number=true."
+        },
+        {
+          "name": "charge_lines",
+          "type": "lines",
+          "required": true,
+          "description": "1+ lines, at least one of type 'rent'. Fields below."
+        }
+      ],
+      "charge_line_fields": [
+        {
+          "name": "unit_id",
+          "type": "ref",
+          "required": true,
+          "references": "units",
+          "description": "Must be in the lease's property."
+        },
+        {
+          "name": "charge_type",
+          "type": "enum",
+          "required": true,
+          "enum": [
+            "rent",
+            "parking",
+            "pet",
+            "storage"
+          ]
+        },
+        {
+          "name": "monthly_amount",
+          "type": "decimal",
+          "required": true,
+          "format": "0 or more, as a string like \"1450.00\" or a number; stored to 2 places"
+        }
+      ]
+    },
+    "portfolios": {
+      "description": "A group of properties owned by one investor.",
+      "depends_on": [],
+      "unique": [
+        "identifier"
+      ],
+      "fields": [
+        {
+          "name": "identifier",
+          "type": "str",
+          "required": true,
+          "max_length": 50
+        },
+        {
+          "name": "name",
+          "type": "str",
+          "required": true,
+          "max_length": 100
+        }
+      ]
+    },
+    "properties": {
+      "description": "A building or complex.",
+      "depends_on": [
+        "portfolios"
+      ],
+      "unique": [
+        "identifier"
+      ],
+      "fields": [
+        {
+          "name": "identifier",
+          "type": "str",
+          "required": true,
+          "max_length": 50
+        },
+        {
+          "name": "name",
+          "type": "str",
+          "required": true,
+          "max_length": 100
+        },
+        {
+          "name": "portfolio_id",
+          "type": "ref",
+          "required": true,
+          "references": "portfolios"
+        },
+        {
+          "name": "timezone",
+          "type": "tz",
+          "required": true,
+          "description": "IANA name, e.g. America/Denver."
+        },
+        {
+          "name": "address_one",
+          "type": "str",
+          "required": false
+        },
+        {
+          "name": "city",
+          "type": "str",
+          "required": false
+        },
+        {
+          "name": "region_code",
+          "type": "region",
+          "required": false,
+          "format": "2-letter uppercase state code, e.g. AZ"
+        },
+        {
+          "name": "zip",
+          "type": "zip",
+          "required": false,
+          "format": "exactly 5 digits, as a string, e.g. 85004"
+        }
+      ]
+    },
+    "unit_types": {
+      "description": "A floor plan, e.g. '2BR / 2BA'.",
+      "depends_on": [],
+      "unique": [
+        "identifier"
+      ],
+      "fields": [
+        {
+          "name": "identifier",
+          "type": "str",
+          "required": true,
+          "max_length": 50
+        },
+        {
+          "name": "name",
+          "type": "str",
+          "required": true,
+          "max_length": 100
+        },
+        {
+          "name": "bedrooms",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "bathrooms",
+          "type": "decimal",
+          "required": true,
+          "format": "0 or more, as a string like \"1450.00\" or a number; stored to 2 places"
+        },
+        {
+          "name": "base_rent",
+          "type": "decimal",
+          "required": true,
+          "format": "0 or more, as a string like \"1450.00\" or a number; stored to 2 places"
+        }
+      ]
+    },
+    "units": {
+      "description": "A rentable unit.",
+      "depends_on": [
+        "properties",
+        "unit_types",
+        "vendors"
+      ],
+      "unique": [
+        "identifier",
+        "(property_id, unit_number)"
+      ],
+      "fields": [
+        {
+          "name": "identifier",
+          "type": "str",
+          "required": true,
+          "max_length": 50
+        },
+        {
+          "name": "property_id",
+          "type": "ref",
+          "required": true,
+          "references": "properties"
+        },
+        {
+          "name": "unit_type_id",
+          "type": "ref",
+          "required": true,
+          "references": "unit_types"
+        },
+        {
+          "name": "unit_number",
+          "type": "str",
+          "required": true,
+          "max_length": 20,
+          "description": "Unique within a property."
+        },
+        {
+          "name": "square_feet",
+          "type": "int",
+          "required": false
+        },
+        {
+          "name": "market_rent",
+          "type": "decimal",
+          "required": false,
+          "format": "0 or more, as a string like \"1450.00\" or a number; stored to 2 places"
+        },
+        {
+          "name": "maintenance_vendor_id",
+          "type": "ref",
+          "required": false,
+          "references": "vendors"
+        }
+      ]
+    },
+    "vendor_payment_terms": {
+      "description": "Payment terms Mesa pays vendors on. Names are unique.",
+      "depends_on": [],
+      "unique": [
+        "name"
+      ],
+      "fields": [
+        {
+          "name": "name",
+          "type": "str",
+          "required": true,
+          "max_length": 100,
+          "description": "Unique display name, e.g. 'Net 30'."
+        },
+        {
+          "name": "terms",
+          "type": "enum",
+          "required": true,
+          "enum": [
+            "due_on_receipt",
+            "net_10",
+            "net_15",
+            "net_30",
+            "net_45",
+            "net_60"
+          ]
+        }
+      ]
+    },
+    "vendors": {
+      "description": "Maintenance and service vendors.",
+      "depends_on": [
+        "vendor_payment_terms"
+      ],
+      "unique": [
+        "identifier"
+      ],
+      "fields": [
+        {
+          "name": "identifier",
+          "type": "str",
+          "required": true,
+          "max_length": 50
+        },
+        {
+          "name": "name",
+          "type": "str",
+          "required": true,
+          "max_length": 200
+        },
+        {
+          "name": "type",
+          "type": "enum",
+          "required": true,
+          "enum": [
+            "business",
+            "individual"
+          ]
+        },
+        {
+          "name": "email",
+          "type": "email",
+          "required": false
+        },
+        {
+          "name": "phone",
+          "type": "phone",
+          "required": false,
+          "format": "+1 and 10 digits, e.g. +13035551234"
+        },
+        {
+          "name": "payment_terms_id",
+          "type": "ref",
+          "required": true,
+          "references": "vendor_payment_terms"
+        }
+      ]
+    }
+  }
+}
