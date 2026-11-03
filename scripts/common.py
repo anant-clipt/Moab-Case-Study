@@ -76,7 +76,7 @@ def name_tokens(value):
 def parse_date(value):
     """Read a date the way the leasing office typed it.
 
-    Slash dates are month/day/year. We know that because some of them
+    Slash dates are month/day/year. I know that because some of them
     are 02/28 and 04/30, which only make sense that way.
     """
     text = (value or "").strip()
@@ -107,7 +107,7 @@ def parse_money(value):
 def parse_phone(value):
     """Return (phone or None, note or None).
 
-    A note means we dropped something Carmen should see. Rewriting
+    A note means I dropped something Carmen should see. Rewriting
     dashes into the standard +1 shape is quiet, because the number
     itself did not change.
     """
@@ -124,11 +124,11 @@ def parse_phone(value):
     if len(digits) == 10:
         phone = "+1" + digits
         if extension:
-            return phone, "We kept the number and left off the extension."
+            return phone, "I kept the number and left off the extension."
         return phone, None
     if len(digits) == 7:
-        return None, "The phone has no area code, so we left it off."
-    return None, "We could not read the phone, so we left it off."
+        return None, "The phone has no area code, so I left it off."
+    return None, "I could not read the phone, so I left it off."
 
 
 def phone_key(value):
@@ -143,10 +143,10 @@ def parse_email(value):
     if not text:
         return None, None
     if text in {"n/a", "na", "none", "null"}:
-        return None, "The email was not a real address, so we left it off."
+        return None, "The email was not a real address, so I left it off."
     if re.fullmatch(r"[^@\s]+@[^@\s]+\.[^@\s]+", text):
         return text, None
-    return None, "The email is missing part of the address, so we left it off."
+    return None, "The email is missing part of the address, so I left it off."
 
 
 def parse_zip(value):
@@ -154,11 +154,11 @@ def parse_zip(value):
     match = re.fullmatch(r"(\d{5})(?:-\d{4})?", text)
     if not match:
         if text:
-            return None, "We could not read the ZIP, so we left it off."
+            return None, "I could not read the ZIP, so I left it off."
         return None, None
     zip_code = match.group(1)
     if text != zip_code:
-        return zip_code, f"The ZIP was {text}. We kept the first five digits, {zip_code}."
+        return zip_code, f"The ZIP was {text}. I kept the first five digits, {zip_code}."
     return zip_code, None
 
 
@@ -176,7 +176,7 @@ def parse_timezone(value, state):
     if key in {"pst", "pdt", "pacific", "pt"}:
         return "America/Los_Angeles", None
     if key.startswith("america"):
-        # Already an official name. Keep it if it is one we know.
+        # Already an official name. Keep it if it is one I know.
         return None, "unrecognized"
     return None, "unrecognized"
 
@@ -248,10 +248,10 @@ class UnionFind:
 
 
 def find_merges(tenants):
-    """Map a duplicate tenant number to the one we keep.
+    """Map a duplicate tenant number to the one I keep.
 
-    We only join two records when it is clearly the same person or company.
-    The same name by itself is not enough. We keep the lower tenant number.
+    I only join two records when it is clearly the same person or company.
+    The same name by itself is not enough. I keep the lower tenant number.
     """
     by_id = {row["TEN_NO"]: row for row in tenants}
     ids = list(by_id)

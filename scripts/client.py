@@ -1,6 +1,6 @@
 """Small helper for talking to LeaseLedger and Keystone.
 
-We go slowly on purpose. Both systems share one speed limit.
+I go slowly on purpose. Both systems share one speed limit.
 """
 
 import json
@@ -32,7 +32,7 @@ def resolve(path):
 def call(method, path, body=None, headers=None):
     """Return status, response headers, and raw bytes.
 
-    Retries when the server asks us to slow down (429) or has a hiccup (503).
+    Retries when the server says to slow down (429) or has a hiccup (503).
     A 503 on a write can mean the save worked, so callers that write must send
     the same Idempotency-Key on the retry.
     """

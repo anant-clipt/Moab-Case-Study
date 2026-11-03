@@ -1,7 +1,7 @@
 """Turn the old files into two piles.
 
-data/ready is what we are willing to send to Keystone.
-data/review is the spreadsheet Carmen uses for everything we skipped or changed.
+data/ready is what I are willing to send to Keystone.
+data/review is the spreadsheet Carmen uses for everything I skipped or changed.
 
 This step does not call Keystone.
 """
@@ -72,11 +72,11 @@ def ask_from(text):
     if "deposit" in text:
         asks.append("Send the real deposit amount if there is one.")
     if "parent" in text:
-        asks.append("Tell us which company is the parent.")
+        asks.append("Tell me which company is the parent.")
     if "main contact" in text:
-        asks.append("Tell us who the main contact should be.")
+        asks.append("Tell me who the main contact should be.")
     if "payment terms" in text:
-        asks.append("Tell us if we read the payment terms wrong.")
+        asks.append("Tell me if I read the payment terms wrong.")
     return " ".join(asks)
 
 
@@ -195,8 +195,8 @@ def decide():
             add_review(
                 reviews, "vendors", vendor_headers, values, vendor["VENDOR_ID"],
                 "not_loaded",
-                f"The payment terms were written as \"{vendor['TERMS']}\". We could not tell what that means, so we left this vendor out.",
-                "Tell us if they are due on receipt, or net 10, 15, 30, 45, or 60.",
+                f"The payment terms were written as \"{vendor['TERMS']}\". I could not tell what that means, so I left this vendor out.",
+                "Tell me if they are due on receipt, or net 10, 15, 30, 45, or 60.",
             )
             continue
         code, label = parsed
@@ -212,7 +212,7 @@ def decide():
         if phone:
             record["phone"] = phone
         ready["vendors"].append(record)
-        notes = [f"The payment terms were written as \"{vendor['TERMS'].strip()}\". We read that as {label}."]
+        notes = [f"The payment terms were written as \"{vendor['TERMS'].strip()}\". I read that as {label}."]
         if phone_note:
             notes.append(phone_note)
         if email_note:
@@ -225,7 +225,7 @@ def decide():
             ask_from(issue),
         )
 
-    # Accounts. Parents are attached after we know which links make a loop.
+    # Accounts. Parents are attached after I know which links make a loop.
     account_headers = template_headers("accounts")
     account_rows = {}
     for tenant in tenants:
@@ -275,7 +275,7 @@ def decide():
                 found.update(seen[seen.index(current) :])
         return found
 
-    # A loop means we cannot tell who the parent is. Drop every link in the loop.
+    # A loop means I cannot tell who the parent is. Drop every link in the loop.
     cycled = cycle_members()
     for ident in cycled:
         account_rows[ident].pop("parent_identifier", None)
@@ -304,8 +304,8 @@ def decide():
             add_review(
                 reviews, "contacts", contact_headers, values, person["OCC_ID"],
                 "not_loaded",
-                f"This person is filed under tenant {ten_id}, and there is no tenant with that number. We did not make up an account for them.",
-                "If Mesa is still collecting from them, send the tenant name and the tenant number you want us to use.",
+                f"This person is filed under tenant {ten_id}, and there is no tenant with that number. I did not make up an account for them.",
+                "If Mesa is still collecting from them, send the tenant name and the tenant number you want me to use.",
             )
             continue
         kept = keeper_for(ten_id, merges)
@@ -316,15 +316,15 @@ def decide():
             add_review(
                 reviews, "contacts", contact_headers, values, person["OCC_ID"],
                 "not_loaded",
-                f"This is the same person as {first} {last} on account {kept}. We kept one person record.",
-                "Tell us if these are actually two different people.",
+                f"This is the same person as {first} {last} on account {kept}. I kept one person record.",
+                "Tell me if these are actually two different people.",
             )
             continue
         if not first or not last:
             add_review(
                 reviews, "contacts", contact_headers, values, person["OCC_ID"],
                 "not_loaded",
-                "This person is missing a first or last name, so we left them out.",
+                "This person is missing a first or last name, so I left them out.",
                 "Send the full name.",
             )
             continue
@@ -366,8 +366,8 @@ def decide():
             )
             primary_email[ident] = contact.get("email", "")
         deposit_words = {
-            "was negative": "The deposit on file was a negative number, so we left it off.",
-            "was not a number": "The deposit on file was not a real amount, so we left it off.",
+            "was negative": "The deposit on file was a negative number, so I left it off.",
+            "was not a number": "The deposit on file was not a real amount, so I left it off.",
         }
         notes = []
         if record["_phone_note"]:
@@ -379,13 +379,13 @@ def decide():
         if ident in cycled:
             other = " and ".join(sorted(item for item in cycled if item != ident))
             notes.append(
-                f"The file has this account and {other} listed as each other's parent company. That is a loop, so we did not set a parent."
+                f"The file has this account and {other} listed as each other's parent company. That is a loop, so I did not set a parent."
             )
         if wrong:
             other = loaded_occs.get(wanted)
             who = f"{other['first_name']} {other['last_name']}" if other else wanted
             notes.append(
-                f"The main contact on file points at {who}, who is not a person on this account. We left the main contact blank."
+                f"The main contact on file points at {who}, who is not a person on this account. I left the main contact blank."
             )
         if notes:
             parent = record.get("parent_identifier", "")
@@ -427,8 +427,8 @@ def decide():
         add_review(
             reviews, "accounts", account_headers, values, dropped,
             "not_loaded",
-            f"This is the same account as {kept} ({kept_row['TEN_NAME'].strip()}). The name, email, and phone match. We kept {kept} and pointed the leases at that one.",
-            "Tell us if these are actually two different accounts and we will split them.",
+            f"This is the same account as {kept} ({kept_row['TEN_NAME'].strip()}). The name, email, and phone match. I kept {kept} and pointed the leases at that one.",
+            "Tell me if these are actually two different accounts and I will split them.",
         )
 
     for ident, record in account_rows.items():
@@ -454,7 +454,7 @@ def decide():
             add_review(
                 reviews, "properties", property_headers, values, building["BLDG_ID"],
                 "not_loaded",
-                f"The time zone was written as \"{building['TZ']}\". We could not tell what that means, so we left this building out.",
+                f"The time zone was written as \"{building['TZ']}\". I could not tell what that means, so I left this building out.",
                 "Send the time zone, for example America/Phoenix or America/Denver.",
             )
             continue
@@ -477,16 +477,16 @@ def decide():
         state = values["region_code"]
         if city == "El Paso" and zone == "America/Chicago":
             zone_sentence = (
-                f"The file said the time zone was \"{building['TZ']}\". We stored America/Chicago, which is Central time. "
+                f"The file said the time zone was \"{building['TZ']}\". I stored America/Chicago, which is Central time. "
                 "El Paso is usually on Mountain time, so please check this."
             )
         elif state == "AZ":
             zone_sentence = (
-                f"The file said the time zone was \"{building['TZ']}\". We stored America/Phoenix. "
+                f"The file said the time zone was \"{building['TZ']}\". I stored America/Phoenix. "
                 "This building is in Arizona, and Arizona does not switch clocks for daylight saving."
             )
         else:
-            zone_sentence = f"The file said the time zone was \"{building['TZ']}\". We stored {zone}."
+            zone_sentence = f"The file said the time zone was \"{building['TZ']}\". I stored {zone}."
         notes = [zone_sentence]
         if zip_note:
             notes.append(zip_note)
@@ -494,7 +494,7 @@ def decide():
             reviews, "properties", property_headers, values, building["BLDG_ID"],
             "loaded_with_changes",
             " ".join(notes),
-            "Tell us if the time zone should be different.",
+            "Tell me if the time zone should be different.",
         )
 
     loaded_properties = {row["identifier"] for row in ready["properties"]}
@@ -522,7 +522,7 @@ def decide():
             add_review(
                 reviews, "units", unit_headers, values, unit["UNIT_ID"],
                 "not_loaded",
-                f"This is apartment {door} at Ocotillo Place, which you sold. We did not bring the apartment over.",
+                f"This is apartment {door} at Ocotillo Place, which you sold. I did not bring the apartment over.",
                 "Nothing, unless this apartment is not really at Ocotillo Place.",
             )
             continue
@@ -531,15 +531,15 @@ def decide():
             add_review(
                 reviews, "units", unit_headers, values, unit["UNIT_ID"],
                 "not_loaded",
-                f"This is the same door as {other}, apartment {door} at {building_name}. The other record is the one with the leases, so we kept that one. This copy has a different asking rent ({unit.get('MKT_RENT')}). We did not change the asking rent on the one we kept.",
-                "Tell us if this is actually a second apartment, or if the asking rent should be the one on this copy.",
+                f"This is the same door as {other}, apartment {door} at {building_name}. The other record is the one with the leases, so I kept that one. This copy has a different asking rent ({unit.get('MKT_RENT')}). I did not change the asking rent on the one I kept.",
+                "Tell me if this is actually a second apartment, or if the asking rent should be the one on this copy.",
             )
             continue
         if values["unit_type_identifier"] not in loaded_types or not door:
             add_review(
                 reviews, "units", unit_headers, values, unit["UNIT_ID"],
                 "not_loaded",
-                "This apartment is missing a floor plan or a door number, so we left it out.",
+                "This apartment is missing a floor plan or a door number, so I left it out.",
                 "Send the floor plan and the door number.",
             )
             continue
@@ -614,38 +614,38 @@ def decide():
 
         if lease["STATUS"] == "D":
             skip(
-                "This is still a draft. You said drafts are just ideas the leasing team typed in, so we left it out. The end date on it is not a real day.",
+                "This is still a draft. You said drafts are just ideas the leasing team typed in, so I left it out. The end date on it is not a real day.",
                 "If this lease is actually signed, send the unit, the start date, the end date, and the rent.",
             )
             continue
         if lease["BLDG_ID"] == SOLD_BUILDING or lease["BLDG_ID"] not in loaded_properties:
             skip(
-                f"This lease is at Ocotillo Place, which you sold. We left the lease out. We kept the tenant, {tenant_name}.",
+                f"This lease is at Ocotillo Place, which you sold. I left the lease out. I kept the tenant, {tenant_name}.",
                 "Nothing, unless this lease is not really for Ocotillo Place.",
             )
             continue
         if ten_id not in by_tenant:
             skip(
                 f"This lease points at tenant {ten_id}, and there is no tenant with that number.",
-                "Tell us who the tenant is.",
+                "Tell me who the tenant is.",
             )
             continue
         if start is None or end is None or end < start:
             skip(
-                "The start date or the end date is missing or backwards, so we left this lease out.",
+                "The start date or the end date is missing or backwards, so I left this lease out.",
                 "Send the real start date and end date.",
             )
             continue
         account = account_rows[kept]
         if account.get("requires_po_number") and not values["po_number"]:
             skip(
-                f"{account['name']} needs a PO number on every lease. This one does not have one, so we left it out.",
-                "Send the PO number and we can add the lease.",
+                f"{account['name']} needs a PO number on every lease. This one does not have one, so I left it out.",
+                "Send the PO number and I can add the lease.",
             )
             continue
         if line_problem or not any(line["charge_type"] == "rent" for line in line_records):
             skip(
-                line_problem or "This lease has no rent charge, and we did not invent one.",
+                line_problem or "This lease has no rent charge, and I did not invent one.",
                 "Send the monthly rent and the apartment it belongs to.",
             )
             continue
@@ -653,13 +653,13 @@ def decide():
         if bad_unit:
             skip(
                 f"The apartment on this lease ({bad_unit}) is not coming over, so the lease stays out too.",
-                "Tell us which apartment this lease belongs on.",
+                "Tell me which apartment this lease belongs on.",
             )
             continue
         if any(by_unit[line["unit_identifier"]]["BLDG_ID"] != lease["BLDG_ID"] for line in line_records):
             skip(
-                "A charge on this lease points at an apartment in a different building. We did not guess which one is right.",
-                "Tell us the right apartment.",
+                "A charge on this lease points at an apartment in a different building. I did not guess which one is right.",
+                "Tell me the right apartment.",
             )
             continue
         prepared_leases.append(
@@ -717,8 +717,8 @@ def decide():
             add_review(
                 reviews, "leases", lease_headers, lease["values"], lease["identifier"],
                 "not_loaded",
-                f"This lease and {others} are both open for apartment {lease['door']} at {lease['building_name']} on the same days. We could not tell which one is the real lease, so we left both out.",
-                "Tell us which lease is the real one. If one of them ended, send the end date.",
+                f"This lease and {others} are both open for apartment {lease['door']} at {lease['building_name']} on the same days. I could not tell which one is the real lease, so I left both out.",
+                "Tell me which lease is the real one. If one of them ended, send the end date.",
             )
             continue
         record = {

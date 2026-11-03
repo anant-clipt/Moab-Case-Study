@@ -14,7 +14,7 @@ Usage:
     python3 scripts/04_load.py leases
 
 Each run sends that layer only, saves the ids, and reads the layer back.
-We do not fill in a missing parent. That record is skipped and printed.
+I do not fill in a missing parent. That record is skipped and printed.
 """
 
 import json

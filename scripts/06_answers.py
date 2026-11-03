@@ -1,6 +1,6 @@
 """Answer the three questions from LeaseLedger, not from what landed in Keystone.
 
-Writes data/answers.json. Prints the working so we can see why a number came out
+Writes data/answers.json. Prints the working so I can see why a number came out
 the way it did.
 """
 
@@ -243,12 +243,12 @@ def q1_explanation(ours, report, cancelled):
         higher.append(f"{building} is ${gap:,.0f} higher because of cancelled {label} {bits}")
     gap_sentence = ". ".join(higher)
     return (
-        "We counted rent only. Parking, pet, and storage fees stayed out, because the question is about rent. "
-        "For each lease we took the monthly rent times the number of months in 2025 the lease actually covered. "
+        "I counted rent only. Parking, pet, and storage fees stayed out, because the question is about rent. "
+        "For each lease I took the monthly rent times the number of months in 2025 the lease actually covered. "
         "Every lease in the file starts on the first of a month and ends on the last day of a month, so each of those months is a full month of rent. "
-        "We left out drafts, because those are not real leases yet, and we left out cancelled leases, because a cancelled lease is not rent Mesa billed. "
+        "I left out drafts, because those are not real leases yet, and I left out cancelled leases, because a cancelled lease is not rent Mesa billed. "
         "Ocotillo Place is in this answer. The building was sold and did not move to Keystone, but the 2025 rent on those leases was still billed. "
-        f"LeaseLedger's report matches our numbers if the cancelled leases are put back in. {gap_sentence}. "
+        f"LeaseLedger's report matches my numbers if the cancelled leases are put back in. {gap_sentence}. "
         "B-06 and B-09 match the report exactly, because neither had a cancelled lease in 2025."
     )
 
@@ -265,17 +265,17 @@ def q2_explanation(top, names, blocked):
         conflicts.append(" and ".join(pair))
     conflict_sentence = "; ".join(conflicts)
     return (
-        "As of October 1, 2026, we counted leases that were active or on notice and that covered that day. "
+        "As of October 1, 2026, I counted leases that were active or on notice and that covered that day. "
         "A notice lease still counts, because the tenant has given notice and is still in the lease. "
-        "Annualized rent is the monthly rent times 12. We used rent only, not parking, pet, or storage. "
-        "Where the same person or company was typed in twice, we added their leases together under the tenant number we kept. "
+        "Annualized rent is the monthly rent times 12. I used rent only, not parking, pet, or storage. "
+        "Where the same person or company was typed in twice, I added their leases together under the tenant number I kept. "
         f"The five are {listed}. Desert Sky includes the leases that were sitting on duplicate account T-1146. "
         f"Two apartments each have two active leases on the same days ({conflict_sentence}). "
-        "We left those four leases out, because counting both would bill one apartment twice. "
+        "I left those four leases out, because counting both would bill one apartment twice. "
         "The top five are the same if those leases are counted. Those tenants are much smaller than this list. "
-        "We also did not add child companies onto their parent. SWMG Tucson Residency Housing and SWMG Travel Nurse Program are separate tenant numbers under Southwest Medical Group. "
+        "I also did not add child companies onto their parent. SWMG Tucson Residency Housing and SWMG Travel Nurse Program are separate tenant numbers under Southwest Medical Group. "
         "Added together with the parent's own $15,000, that group is $186,900, which would make it the biggest customer. "
-        "We kept them separate because the question asks for a tenant number, and these are different accounts, not the same account typed twice."
+        "I kept them separate because the question asks for a tenant number, and these are different accounts, not the same account typed twice."
     )
 
 
@@ -284,10 +284,10 @@ def q3_explanation(detail):
     return (
         "For each building that still exists, occupancy is the apartments with an active or notice lease covering October 1, 2026, divided by the apartments at that building. "
         "A fraction of 1 would mean every apartment is full. "
-        "An apartment with two leases on it counts once. We also did not count a second copy of a door that was typed in twice, because that is one apartment. "
+        "An apartment with two leases on it counts once. I also did not count a second copy of a door that was typed in twice, because that is one apartment. "
         "Drafts do not make an apartment full, and neither does a lease that had already ended. "
         "Ocotillo Place is not in this answer. The building was sold and deleted, so it is not a property Mesa is filling. "
-        f"The counts are {bits}. We rounded each fraction to four decimal places."
+        f"The counts are {bits}. I rounded each fraction to four decimal places."
     )
 
 
