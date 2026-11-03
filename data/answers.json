@@ -1,0 +1,46 @@
+{
+  "q1_billed_rent_2025": {
+    "B-01": 159625.0,
+    "B-02": 211000.0,
+    "B-03": 137775.0,
+    "B-04": 158450.0,
+    "B-05": 190025.0,
+    "B-06": 184975.0,
+    "B-07": 263175.0,
+    "B-09": 100125.0
+  },
+  "q1_explanation": "I counted rent only. Parking, pet, and storage fees stayed out, because the question is about rent. For each lease I took the monthly rent times the number of months in 2025 the lease actually covered. Every lease in the file starts on the first of a month and ends on the last day of a month, so each of those months is a full month of rent. I left out drafts, because those are not real leases yet, and I left out cancelled leases, because a cancelled lease is not rent Mesa billed. Ocotillo Place is in this answer. The building was sold and did not move to Keystone, but the 2025 rent on those leases was still billed. LeaseLedger's report matches my numbers if the cancelled leases are put back in. B-01 is $8,750 higher because of cancelled lease L-50099 ($8,750). B-02 is $20,050 higher because of cancelled leases L-50076 ($12,400) and L-50096 ($7,650). B-03 is $8,750 higher because of cancelled lease L-50090 ($8,750). B-04 is $25,850 higher because of cancelled lease L-50056 ($25,850). B-05 is $13,625 higher because of cancelled leases L-50104 ($7,250) and L-50106 ($6,375). B-07 is $14,200 higher because of cancelled lease L-50084 ($14,200). B-06 and B-09 match the report exactly, because neither had a cancelled lease in 2025.",
+  "q2_top_accounts": [
+    {
+      "account": "T-1118",
+      "annualized_rent": 128700.0
+    },
+    {
+      "account": "T-1097",
+      "annualized_rent": 102600.0
+    },
+    {
+      "account": "T-1112",
+      "annualized_rent": 101100.0
+    },
+    {
+      "account": "T-1026",
+      "annualized_rent": 99300.0
+    },
+    {
+      "account": "T-1002",
+      "annualized_rent": 92100.0
+    }
+  ],
+  "q2_explanation": "As of October 1, 2026, I counted leases that were active or on notice and that covered that day. A notice lease still counts, because the tenant has given notice and is still in the lease. Annualized rent is the monthly rent times 12. I used rent only, not parking, pet, or storage. Where the same person or company was typed in twice, I added their leases together under the tenant number I kept. The five are T-1118 (Desert Sky Airlines Crew Housing, $128,700), T-1097 (Café Luna LLC, $102,600), T-1112 (Ironwood Construction, $101,100), T-1026 (SWMG Tucson Residency Housing, $99,300), T-1002 (Vertex Data Centers, $92,100). Desert Sky includes the leases that were sitting on duplicate account T-1146. Two apartments each have two active leases on the same days (L-50102 and L-50140; L-50107 and L-50142). I left those four leases out, because counting both would bill one apartment twice. The top five are the same if those leases are counted. Those tenants are much smaller than this list. I also did not add child companies onto their parent. SWMG Tucson Residency Housing and SWMG Travel Nurse Program are separate tenant numbers under Southwest Medical Group. Added together with the parent's own $15,000, that group is $186,900, which would make it the biggest customer. I kept them separate because the question asks for a tenant number, and these are different accounts, not the same account typed twice.",
+  "q3_occupancy": {
+    "B-01": 0.75,
+    "B-02": 0.9091,
+    "B-03": 0.8333,
+    "B-04": 0.6364,
+    "B-05": 0.9231,
+    "B-06": 1.0,
+    "B-07": 0.9231
+  },
+  "q3_explanation": "For each building that still exists, occupancy is the apartments with an active or notice lease covering October 1, 2026, divided by the apartments at that building. A fraction of 1 would mean every apartment is full. An apartment with two leases on it counts once. I also did not count a second copy of a door that was typed in twice, because that is one apartment. Drafts do not make an apartment full, and neither does a lease that had already ended. Ocotillo Place is not in this answer. The building was sold and deleted, so it is not a property Mesa is filling. The counts are B-01 is 9 of 12, B-02 is 10 of 11, B-03 is 10 of 12, B-04 is 7 of 11, B-05 is 12 of 13, B-06 is 11 of 11, B-07 is 12 of 13. I rounded each fraction to four decimal places."
+}

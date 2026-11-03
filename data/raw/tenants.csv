@@ -1,0 +1,150 @@
+TEN_NO,TEN_NAME,TEN_TYPE,PARENT_TEN_NO,EMAIL,PHONE,DEPOSIT,REQ_PO,PRIMARY_OCC
+T-1001,Olivia Anderson,I,,OLIVIA.ANDERSON@GMAIL.COM,+1 520 555 1902,"$1,400.00",N,O-3001
+T-1002,Vertex Data Centers,C,,chloe.clark@vertexdatacenters.com,(505) 555-1294,10000.00,N,O-3002
+T-1003,Aisha Scott,I,,aisha.scott@yahoo.com,801-555-7802 x57,2200,N,O-3003
+T-1004,Luis Perez,I,,luis.perez@outlook.com,+1 480 555 7588,"$2,325.00",N,O-3004
+T-1005,Diego Allen,I,,diego.allen@gmail.com,915-555-1790,"$1,450.00",N,O-3005
+T-1006,Zoë Hart,I,,zoe.hart@outlook,702.555.3682,-1,N,O-3006
+T-1007,Rachel Green,I,,rachel.green@gmail.com,6025555645,"$1,925.00",N,O-3008
+T-1008,David Roberts,I,,david.roberts@icloud.com,520-555-2367,2325.00,,O-3010
+T-1009,Blue Agave Tattoo,C,,megan.begay@blueagavetattoo.com,915-555-6628 x86,5000,N,O-3012
+T-1010,Megan Roberts,I,,megan.roberts@outlook.com,7205559141,1350,N,O-3013
+T-1011,Nina Clark,I,,nina.clark@yahoo.com,480-555-5064,1275,,O-3014
+T-1012,Ethan Rodriguez,I,,ethan.rodriguez@gmail.com,520-555-1857 x54,"$1,525.00",N,O-3015
+T-1013,Mei White,I,,mei.white@gmail.com ,8015557165,-1,N,O-3016
+T-1014,Gabriel Walker,I,,gabriel.walker@yahoo.com,+1 801 555 5203,-1,N,O-3017
+T-1015,Tessa Allen,I,,tessa.allen@outlook.com,520.555.9807,1125.00,N,O-3018
+T-1016,Jasmine Hernandez,I,,jasmine.hernandez@yahoo.com,602.555.6195,1225,N,O-3019
+T-1017,Rachel Chen,I,,RACHEL.CHEN@ICLOUD.COM,505.555.4900,"$1,000.00",N,O-3021
+T-1018,Renée Dubois,I,,renee.dubois@gmail.com,+1 480 555 2335,"$1,825.00",,O-3023
+T-1019,Luis Walker,I,,LUIS.WALKER@YAHOO.COM,+1 801 555 2406,1575,N,O-3025
+T-1020,Daniel Roberts,I,,daniel.roberts@outlook.com,602.555.4400,1275,N,O-3027
+T-1021,Omar Roberts,I,,omar.roberts@outlook.com,4805557696,1725,,O-3028
+T-1022,Hailey Hill,I,,hailey.hill@yahoo.com,(801) 555-9690,"$1,300.00",N,O-3029
+T-1023,Sonoran Bike Works,C,,james.green@sonoranbikeworks.com,555-6070,"$5,000.00",N,O-3030
+T-1024,Olivia Harris,I,,olivia.harris@outlook.com,+1 303 555 9560,"$1,375.00",N,O-3032
+T-1025,Luis Mitchell,I,,luis.mitchell@outlook.com,915-555-8341,2300,N,O-3033
+T-1026,SWMG Tucson Residency Housing,C,T-1109,noah.walker@swmgtucsonresidencyhousing.com,+1 303 555 9325,10000.00,Y,O-3035
+T-1027,Nina Lewis,I,,nina.lewis@gmail.com,915-555-3072,"$1,850.00",N,O-3037
+T-1028,Caleb Smith,I,,caleb.smith@outlook.com,(801) 555-3988,1400,,O-3038
+T-1029,Marcus Carter,I,,marcus.carter@gmail.com,702-555-6582 x29,2325,,O-3040
+T-1030,Aisha Moore,I,,n/a,303-555-4318,"$2,175.00",N,O-3041
+T-1031,Mei Wright,I,,mei.wright@gmail.com,+1 915 555 9249,"$2,275.00",,O-3043
+T-1032,Brandon White,I,,brandon.white@icloud.com,520-555-5448 x36,1325.00,,O-3044
+T-1033,Isaac Baker,I,,isaac.baker@outlook.com,555-8534,"$1,450.00",N,O-3045
+T-1034,Michael Begay,I,,michael.begay@yahoo.com,6025557355,1725,N,O-3046
+T-1035,Gabriel Begay,I,,gabriel.begay@gmail.com,915.555.1403,N/A,,O-3047
+T-1036,Peña Family Dental,C,,james.clark@penafamilydental.com,555-2279,-1,,O-3049
+T-1037,Logan Brown,I,,logan.brown@gmail.com,+1 602 555 5771,"$1,500.00",N,O-3050
+T-1038,Tyler Torres,I,,tyler.torres@icloud.com,+1 720 555 1621,1200,N,O-3052
+T-1039,Chloe Hill,I,,chloe.hill@outlook.com,801-555-4071 x41,1750.00,N,O-3053
+T-1040,Maria Patel,I,,maria.patel@outlook.com,505-555-3395,1675.00,N,O-3054
+T-1041,Caleb Jackson,I,,caleb.jackson@gmail.com,480-555-7141,2025,N,O-3055
+T-1042,Isaac Rodriguez,I,,isaac.rodriguez@icloud.com,520-555-5508,1675,N,O-3057
+T-1043,Marcus Baker,I,,marcus.baker@icloud.com,702-555-6706,"$2,000.00",N,O-3058
+T-1044,Logan Baker,I,,logan.baker@gmail.com,+1 720 555 5343,"$1,675.00",N,O-3059
+T-1045,Isaac Nelson,I,,isaac.nelson@icloud.com ,505-555-8565 x57,1775,N,O-3061
+T-1046,Marcus Yazzie,I,,marcus.yazzie@yahoo,+1 505 555 5683,1625.00,,O-3063
+T-1047,Fatima Adams,I,,fatima.adams@outlook.com,(702) 555-6973,1300,,O-3065
+T-1048,Brandon Smith,I,,brandon.smith@gmail.com,505-555-8715,1750,N,O-3066
+T-1049,Ana Smith,I,,ANA.SMITH@GMAIL.COM,+1 303 555 8181,1775,N,O-3067
+T-1050,Camila Adams,I,,camila.adams@yahoo.com,5055557828,1325.00,,O-3068
+T-1051,Olivia Baker,I,,olivia.baker@icloud.com,(720) 555-4521,2000,,O-3069
+T-1052,Megan Carter,I,,MEGAN.CARTER@GMAIL.COM,(602) 555-9469,1800.00,N,O-3070
+T-1053,Maria Green,I,,maria.green@outlook.com,801-555-3829,-1,,O-3072
+T-1054,James Nguyen,I,,james.nguyen@yahoo.com,(801) 555-3879,1600.00,,O-3074
+T-1055,Chloe Hernandez,I,,N/A,801.555.8780,"$1,800.00",N,O-3075
+T-1056,Caleb Patel,I,,caleb.patel@gmail.com,+1 720 555 8038,2150.00,N,O-3076
+T-1057,Kevin Torres,I,,kevin.torres@icloud.com ,+1 720 555 7373,1500.00,N,O-3077
+T-1058,CSU Visiting Faculty Housing,C,T-1121,brandon.carter@csuvisitingfacultyhousing.com,8015553347,5000,Y,O-3079
+T-1059,Grace Allen,I,,grace.allen@icloud.com,+1 915 555 7004,1775,N,O-3080
+T-1060,Ethan Jackson,I,,ethan.jackson@icloud.com,602-555-1427,"$1,225.00",N,O-3082
+T-1061,Nina Adams,I,,nina.adams@gmail.com,303.555.2439,2250.00,N,O-3083
+T-1062,Gabriel Robinson,I,,gabriel.robinson@gmail.com,480.555.1954,1750,N,O-3084
+T-1063,Logan Anderson,I,,logan.anderson@gmail.com,(720) 555-9603,1500.00,N,O-3085
+T-1064,Ana Baker,I,,ana.baker@gmail.com,+1 720 555 5842,"$1,925.00",N,O-3087
+T-1065,Kevin Walker,I,,kevin.walker@outlook.com,+1 505 555 6812,2150,N,O-3089
+T-1066,Gabriel Torres,I,,gabriel.torres@outlook.com,520-555-5248,"$1,375.00",N,O-3091
+T-1067,Tessa Perez,I,,tessa.perez@outlook.com ,702-555-7932 x64,1675.00,,O-3093
+T-1068,Ethan Chen,I,,ethan.chen@yahoo.com,8015559638,1800.00,N,O-3095
+T-1069,Rosa Kim,I,,rosa.kim@icloud.com,9155554399,1825.00,N,O-3097
+T-1070,Andre Torres,I,,andre.torres@icloud.com,720-555-1120 x84,-1,,O-3099
+T-1071,Caleb Garcia,I,,caleb.garcia@outlook.com,480.555.6046,1825,N,O-3101
+T-1072,Emily Anderson,I,,emily.anderson@outlook.com,505-555-7084,1250,,O-3102
+T-1073,Nina Rodriguez,I,,nina.rodriguez@gmail.com,5055554970,1250,,O-3103
+T-1074,Megan White,I,,megan.white@outlook.com ,5205557614,1775.00,N,O-3105
+T-1075,Emily Moore,I,,EMILY.MOORE@OUTLOOK.COM,480-555-2592,"$1,775.00",,O-3106
+T-1076,Nina Harris,I,,nina.harris@outlook.com,520.555.6275,2175,,O-3108
+T-1077,Isaac Mitchell,I,,isaac.mitchell@gmail.com,+1 602 555 3368,1725,N,O-3110
+T-1078,Leah Allen,I,,leah.allen@gmail.com,(702) 555-5053,1475.00,N,O-3111
+T-1079,Marcus Nguyen,I,,marcus.nguyen@icloud.com,+1 480 555 8570,1175.00,N,O-3113
+T-1080,Diego Kim,I,,diego.kim@icloud.com,(602) 555-5760,1750.00,N,O-3115
+T-1081,Andre Garcia,I,,andre.garcia@gmail.com,801-555-3349,1850.00,N,O-3116
+T-1082,Victor Mitchell,I,,victor.mitchell@outlook.com ,915-555-7241,1450,,O-3145
+T-1083,Omar Jackson,I,,omar.jackson@outlook.com,+1 720 555 5123,"$1,875.00",N,O-3118
+T-1084,Tessa Garcia,I,,tessa.garcia@icloud.com,6025553316,1200.00,N,O-3120
+T-1085,Jasmine Patel,I,,jasmine.patel@gmail.com,+1 915 555 1324,1900,N,O-3121
+T-1086,Bright Path Staffing,C,T-1139,ethan.allen@brightpathstaffing.com ,801-555-9022,10000.00,,O-3122
+T-1087,Gabriel Patel,I,,gabriel.patel@outlook.com,(720) 555-3633,1425.00,N,O-3123
+T-1088,Logan Clark,I,,logan.clark@gmail.com,602-555-6832 x60,"$1,975.00",,O-3124
+T-1089,Logan Hill,I,,logan.hill@outlook.com ,555-7396,1500,N,O-3125
+T-1090,Brandon Johnson,I,,brandon.johnson@outlook.com,602-555-8015 x71,"$1,475.00",N,O-3126
+T-1091,SWMG Travel Nurse Program,C,T-1109,priya.wright@swmgtravelnurseprogram.com,801-555-5393 x42,"$5,000.00",Y,O-3155
+T-1092,Cactus Vape Co,C,,victor.harris@cactusvapeco.com,505.555.7282,-1,,O-3130
+T-1093,Ethan Harris,I,,ethan.harris@icloud.com,505.555.4223,1700,N,O-3131
+T-1094,Tyler Clark,I,,tyler.clark@yahoo.com,+1 303 555 4321,1175,N,O-3133
+T-1095,Luis Roberts,I,,luis.roberts@icloud.com,4805557837,"$1,275.00",,O-3134
+T-1096,Jasmine Carter,I,,jasmine.carter@outlook.com,3035558122,-1,N,O-3135
+T-1097,Café Luna LLC,C,,fatima.johnson@cafelunallc.com,7205552333,"$5,000.00",N,O-3137
+T-1098,Sofia Baker,I,,sofia.baker@gmail.com,(801) 555-6664,1775,N,O-3139
+T-1099,Jasmine Walker,I,,jasmine.walker@outlook.com,702-555-2770 x35,N/A,N,O-3140
+T-1100,Grace Hernandez,I,,n/a,520-555-7143,"$1,200.00",,O-3141
+T-1101,Camila White,I,,camila.white@gmail.com,480.555.5681,"$1,500.00",N,O-3142
+T-1102,Priya Torres,I,,priya.torres@icloud.com,5205554019,"$2,275.00",,O-3144
+T-1103,Camila Wright,I,,camila.wright@outlook.com,(801) 555-4134,1725,,O-3145
+T-1104,Daniel Nelson,I,,daniel.nelson@icloud.com,702-555-4646 x81,"$1,400.00",N,O-3147
+T-1105,Daniel Patel,I,,daniel.patel@icloud.com,801-555-6769,"$1,875.00",,O-3149
+T-1106,Brandon Hernandez,I,,brandon.hernandez@yahoo.com,+1 702 555 6884,"$1,450.00",N,O-3150
+T-1107,Mesa Yoga Collective,C,,marcus.thomas@mesayogacollective.com,+1 505 555 2494,7500.00,N,O-3152
+T-1108,Priya Yazzie,I,,priya.yazzie@yahoo.com,9155557616,"$1,475.00",,O-3153
+T-1109,Southwest Medical Group,C,,david.white@southwestmedicalgroup.com,801-555-9049,"$5,000.00",N,O-3128
+T-1110,Victor Adams,I,,VICTOR.ADAMS@YAHOO.COM,702-555-7660 x60,"$1,625.00",N,O-3156
+T-1111,Omar Martinez,I,,omar.martinez@icloud.com ,(915) 555-6324,2350,N,O-3158
+T-1112,Ironwood Construction,C,,n/a,555-4614,"$5,000.00",N,O-3160
+T-1113,Ana Carter,I,,ANA.CARTER@GMAIL.COM,9155558627,1175.00,N,O-3162
+T-1114,Brandon Adams,I,,brandon.adams@yahoo.com ,915.555.9934,1175.00,,O-3164
+T-1115,Omar Scott,I,,omar.scott@outlook.com,+1 720 555 1625,"$2,325.00",N,O-3165
+T-1116,Emily Chen,I,,emily.chen@yahoo.com,702.555.7856,"$2,275.00",N,O-3166
+T-1117,Ethan Smith,I,,ethan.smith@yahoo.com,702.555.4633,1375.00,,O-3168
+T-1118,Desert Sky Airlines Crew Housing,C,,victor.moore@desertskyairlinescrewhousing.com,505-555-3369 x24,7500,N,O-3170
+T-1119,Luis Torres,I,,luis.torres@outlook.com,303-555-2093,1775,N,O-3171
+T-1120,Sofia Lopez,I,,sofia.lopez@gmail.com,(720) 555-4984,"$1,875.00",N,O-3172
+T-1121,Copper State University,C,,nina.walker@copperstateuniversity.com,801.555.2193,"$2,500.00",N,O-3173
+T-1122,Emily Mitchell,I,,emily.mitchell@outlook.com,801.555.3403,"$1,375.00",,O-3175
+T-1123,Noah Moore,I,,noah.moore@yahoo.com,303.555.5459,1450,N,O-3177
+T-1124,Rosa Moore,I,,rosa.moore@icloud.com,520.555.7317,1225.00,,O-3178
+T-1125,David Clark,I,,david.clark@outlook.com,720-555-3470 x72,"$1,250.00",N,O-3180
+T-1126,Camila Martinez,I,,camila.martinez@yahoo,4805555011,"$1,800.00",,O-3181
+T-1127,Tessa Nguyen,I,,tessa.nguyen@icloud.com,+1 702 555 4657,1250,,O-3182
+T-1128,Olivia Jackson,I,,olivia.jackson@icloud.com,720-555-8783 x15,N/A,N,O-3183
+T-1129,Søren Lund,I,,soren.lund@gmail.com ,801-555-8700 x88,2200.00,N,O-3184
+T-1130,Rachel Baker,I,,rachel.baker@yahoo.com,(602) 555-6000,1275,,O-3186
+T-1131,Hannah Davis,I,,hannah.davis@yahoo.com,480-555-9869 x69,1250,,O-3188
+T-1132,Emily Garcia,I,,emily.garcia@gmail.com,+1 915 555 4748,"$1,175.00",N,O-3189
+T-1133,Hailey Walker,I,,HAILEY.WALKER@OUTLOOK.COM,520.555.7634,1225,N,O-3190
+T-1134,Ana Perez,I,,ana.perez@outlook.com,303-555-4912,1825,N,O-3191
+T-1135,Diego Jackson,I,,diego.jackson@icloud,602-555-9543 x33,1700,N,O-3192
+T-1136,Priya Roberts,I,,priya.roberts@yahoo.com,915-555-3352,1425.00,,O-3193
+T-1137,Brandon Yazzie,I,,brandon.yazzie@icloud.com,5205558413,2150.00,,O-3195
+T-1138,Leah Torres,I,,leah.torres@yahoo.com,915-555-8333 x64,"$1,550.00",N,O-3197
+T-1139,Bright Path Staffing West,C,T-1086,noah.mitchell@brightpathstaffingwest,555-1651,"$10,000.00",N,O-3198
+T-1140,Nina Jackson,I,,nina.jackson@gmail.com,801-555-7611 x56,1875.00,N,O-3199
+T-1141,Victor Jackson,I,,victor.jackson@yahoo.com,520.555.3325,"$1,200.00",N,O-3201
+T-1142,Marcus Roberts,I,,marcus.roberts@gmail.com,602-555-8842 x78,-1,,O-3202
+T-1143,Hannah Rodriguez,I,,hannah.rodriguez@gmail.com,720-555-7686,1250.00,,O-3203
+T-1144,Marcus Martinez,I,,marcus.martinez@yahoo.com,505-555-3147,1350.00,N,O-3204
+T-1145,Noah Scott,I,,noah.scott@gmail.com,555-4659,1450.00,N,O-3205
+T-1146,DESERT - SKY AIRLINES CREW HOUSING,C,,VICTOR.MOORE@DESERTSKYAIRLINESCREWHOUSING.COM,505-555-3369 x55,,,O-3206
+T-1147,"Patel, Daniel",I,,DANIEL.PATEL@ICLOUD.COM,801-555-6769,,,O-3207
+T-1148,"Mitchell, Emily",I,,emily.mitchell@outlook.com,(801) 555-3403,,,O-3208
+T-1149,TESSA GARCIA,I,,TESSA.GARCIA@ICLOUD.COM,+1 602 555 3316,,,O-3209

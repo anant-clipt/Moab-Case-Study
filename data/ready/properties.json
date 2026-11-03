@@ -1,0 +1,72 @@
+[
+  {
+    "identifier": "B-01",
+    "name": "Saguaro Flats",
+    "portfolio_identifier": "PF-1",
+    "timezone": "America/Phoenix",
+    "address_one": "2238 Colfax Ave",
+    "city": "Tempe",
+    "region_code": "AZ",
+    "zip": "85291"
+  },
+  {
+    "identifier": "B-02",
+    "name": "Palo Verde Row",
+    "portfolio_identifier": "PF-2",
+    "timezone": "America/Chicago",
+    "address_one": "5069 Broadway",
+    "city": "El Paso",
+    "region_code": "TX",
+    "zip": "79950"
+  },
+  {
+    "identifier": "B-03",
+    "name": "Canyon View Lofts",
+    "portfolio_identifier": "PF-3",
+    "timezone": "America/Denver",
+    "address_one": "489 Desert Inn Rd",
+    "city": "Albuquerque",
+    "region_code": "NM",
+    "zip": "87155"
+  },
+  {
+    "identifier": "B-04",
+    "name": "Pinon Ridge",
+    "portfolio_identifier": "PF-2",
+    "timezone": "America/Phoenix",
+    "address_one": "2586 Mill Ave",
+    "city": "Mesa",
+    "region_code": "AZ",
+    "zip": "85257"
+  },
+  {
+    "identifier": "B-05",
+    "name": "Mesquite Commons",
+    "portfolio_identifier": "PF-1",
+    "timezone": "America/Phoenix",
+    "address_one": "3556 Central Ave",
+    "city": "Tucson",
+    "region_code": "AZ",
+    "zip": "85766"
+  },
+  {
+    "identifier": "B-06",
+    "name": "Red Rock Terrace",
+    "portfolio_identifier": "PF-1",
+    "timezone": "America/Los_Angeles",
+    "address_one": "5197 Desert Inn Rd",
+    "city": "Las Vegas",
+    "region_code": "NV",
+    "zip": "89115"
+  },
+  {
+    "identifier": "B-07",
+    "name": "Juniper Court",
+    "portfolio_identifier": "PF-3",
+    "timezone": "America/Denver",
+    "address_one": "8198 Colfax Ave",
+    "city": "Denver",
+    "region_code": "CO",
+    "zip": "80248"
+  }
+]

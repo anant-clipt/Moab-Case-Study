@@ -1,0 +1,47 @@
+{
+  "report": "rent_roll_by_property",
+  "year": 2025,
+  "description": "Rent billed per building.",
+  "rows": [
+    {
+      "BLDG_ID": "B-01",
+      "BLDG_NAME": "Saguaro Flats",
+      "BILLED_RENT": 168375.0
+    },
+    {
+      "BLDG_ID": "B-02",
+      "BLDG_NAME": "Palo Verde Row",
+      "BILLED_RENT": 231050.0
+    },
+    {
+      "BLDG_ID": "B-03",
+      "BLDG_NAME": "Canyon View Lofts",
+      "BILLED_RENT": 146525.0
+    },
+    {
+      "BLDG_ID": "B-04",
+      "BLDG_NAME": "Pinon Ridge",
+      "BILLED_RENT": 184300.0
+    },
+    {
+      "BLDG_ID": "B-05",
+      "BLDG_NAME": "Mesquite Commons",
+      "BILLED_RENT": 203650.0
+    },
+    {
+      "BLDG_ID": "B-06",
+      "BLDG_NAME": "Red Rock Terrace",
+      "BILLED_RENT": 184975.0
+    },
+    {
+      "BLDG_ID": "B-07",
+      "BLDG_NAME": "Juniper Court",
+      "BILLED_RENT": 277375.0
+    },
+    {
+      "BLDG_ID": "B-09",
+      "BLDG_NAME": "(inactive)",
+      "BILLED_RENT": 100125.0
+    }
+  ]
+}

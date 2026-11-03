@@ -1,0 +1,705 @@
+[
+  {
+    "identifier": "U-0001",
+    "property_identifier": "B-01",
+    "unit_type_identifier": "2B2",
+    "unit_number": "101",
+    "square_feet": 1080,
+    "market_rent": "2050.00",
+    "maintenance_vendor_identifier": "V-103"
+  },
+  {
+    "identifier": "U-0002",
+    "property_identifier": "B-01",
+    "unit_type_identifier": "2B1",
+    "unit_number": "102",
+    "square_feet": 890,
+    "market_rent": "1675.00",
+    "maintenance_vendor_identifier": "V-110"
+  },
+  {
+    "identifier": "U-0003",
+    "property_identifier": "B-01",
+    "unit_type_identifier": "3B2",
+    "unit_number": "103",
+    "square_feet": 1220,
+    "market_rent": "2175.00",
+    "maintenance_vendor_identifier": "V-101"
+  },
+  {
+    "identifier": "U-0004",
+    "property_identifier": "B-01",
+    "unit_type_identifier": "1B1",
+    "unit_number": "104",
+    "square_feet": 720,
+    "market_rent": "1350.00"
+  },
+  {
+    "identifier": "U-0005",
+    "property_identifier": "B-01",
+    "unit_type_identifier": "2B1",
+    "unit_number": "105",
+    "square_feet": 930,
+    "market_rent": "1750.00"
+  },
+  {
+    "identifier": "U-0006",
+    "property_identifier": "B-01",
+    "unit_type_identifier": "2B1",
+    "unit_number": "106",
+    "square_feet": 930,
+    "market_rent": "1750.00",
+    "maintenance_vendor_identifier": "V-111"
+  },
+  {
+    "identifier": "U-0007",
+    "property_identifier": "B-01",
+    "unit_type_identifier": "2B2",
+    "unit_number": "201",
+    "market_rent": "1925.00"
+  },
+  {
+    "identifier": "U-0008",
+    "property_identifier": "B-01",
+    "unit_type_identifier": "STU",
+    "unit_number": "202",
+    "square_feet": 490,
+    "market_rent": "1350.00",
+    "maintenance_vendor_identifier": "V-112"
+  },
+  {
+    "identifier": "U-0009",
+    "property_identifier": "B-01",
+    "unit_type_identifier": "1B1",
+    "unit_number": "203",
+    "square_feet": 670,
+    "market_rent": "1475.00",
+    "maintenance_vendor_identifier": "V-101"
+  },
+  {
+    "identifier": "U-0010",
+    "property_identifier": "B-01",
+    "unit_type_identifier": "2B2",
+    "unit_number": "204",
+    "square_feet": 1080,
+    "market_rent": "1925.00",
+    "maintenance_vendor_identifier": "V-104"
+  },
+  {
+    "identifier": "U-0011",
+    "property_identifier": "B-01",
+    "unit_type_identifier": "3B2",
+    "unit_number": "205",
+    "market_rent": "2375.00",
+    "maintenance_vendor_identifier": "V-105"
+  },
+  {
+    "identifier": "U-0012",
+    "property_identifier": "B-01",
+    "unit_type_identifier": "STU",
+    "unit_number": "206",
+    "square_feet": 540,
+    "market_rent": "1250.00",
+    "maintenance_vendor_identifier": "V-109"
+  },
+  {
+    "identifier": "U-0013",
+    "property_identifier": "B-02",
+    "unit_type_identifier": "1B1",
+    "unit_number": "101",
+    "square_feet": 730,
+    "market_rent": "1550.00",
+    "maintenance_vendor_identifier": "V-107"
+  },
+  {
+    "identifier": "U-0014",
+    "property_identifier": "B-02",
+    "unit_type_identifier": "1B1",
+    "unit_number": "102",
+    "square_feet": 670,
+    "market_rent": "1275.00",
+    "maintenance_vendor_identifier": "V-112"
+  },
+  {
+    "identifier": "U-0015",
+    "property_identifier": "B-02",
+    "unit_type_identifier": "2B2",
+    "unit_number": "103",
+    "square_feet": 1010,
+    "market_rent": "1850.00"
+  },
+  {
+    "identifier": "U-0016",
+    "property_identifier": "B-02",
+    "unit_type_identifier": "2B1",
+    "unit_number": "104",
+    "square_feet": 880,
+    "market_rent": "1525.00"
+  },
+  {
+    "identifier": "U-0017",
+    "property_identifier": "B-02",
+    "unit_type_identifier": "1B1",
+    "unit_number": "105",
+    "market_rent": "1300.00"
+  },
+  {
+    "identifier": "U-0018",
+    "property_identifier": "B-02",
+    "unit_type_identifier": "2B1",
+    "unit_number": "106",
+    "square_feet": 860,
+    "market_rent": "1650.00"
+  },
+  {
+    "identifier": "U-0019",
+    "property_identifier": "B-02",
+    "unit_type_identifier": "1B1",
+    "unit_number": "201",
+    "square_feet": 670,
+    "market_rent": "1275.00"
+  },
+  {
+    "identifier": "U-0020",
+    "property_identifier": "B-02",
+    "unit_type_identifier": "3B2",
+    "unit_number": "202",
+    "square_feet": 1240,
+    "market_rent": "2325.00",
+    "maintenance_vendor_identifier": "V-111"
+  },
+  {
+    "identifier": "U-0021",
+    "property_identifier": "B-02",
+    "unit_type_identifier": "3B2",
+    "unit_number": "203",
+    "market_rent": "2200.00",
+    "maintenance_vendor_identifier": "V-109"
+  },
+  {
+    "identifier": "U-0022",
+    "property_identifier": "B-02",
+    "unit_type_identifier": "2B1",
+    "unit_number": "204",
+    "square_feet": 870,
+    "market_rent": "1525.00",
+    "maintenance_vendor_identifier": "V-107"
+  },
+  {
+    "identifier": "U-0023",
+    "property_identifier": "B-02",
+    "unit_type_identifier": "RTL",
+    "unit_number": "R1",
+    "square_feet": 1810,
+    "market_rent": "4250.00",
+    "maintenance_vendor_identifier": "V-101"
+  },
+  {
+    "identifier": "U-0024",
+    "property_identifier": "B-03",
+    "unit_type_identifier": "2B2",
+    "unit_number": "101",
+    "square_feet": 990,
+    "market_rent": "1850.00",
+    "maintenance_vendor_identifier": "V-102"
+  },
+  {
+    "identifier": "U-0025",
+    "property_identifier": "B-03",
+    "unit_type_identifier": "STU",
+    "unit_number": "102",
+    "square_feet": 530,
+    "market_rent": "1250.00"
+  },
+  {
+    "identifier": "U-0026",
+    "property_identifier": "B-03",
+    "unit_type_identifier": "1B1",
+    "unit_number": "103",
+    "square_feet": 680,
+    "market_rent": "1500.00"
+  },
+  {
+    "identifier": "U-0027",
+    "property_identifier": "B-03",
+    "unit_type_identifier": "1B1",
+    "unit_number": "104",
+    "square_feet": 720,
+    "market_rent": "1425.00",
+    "maintenance_vendor_identifier": "V-110"
+  },
+  {
+    "identifier": "U-0028",
+    "property_identifier": "B-03",
+    "unit_type_identifier": "2B2",
+    "unit_number": "105",
+    "square_feet": 1040,
+    "market_rent": "2050.00"
+  },
+  {
+    "identifier": "U-0029",
+    "property_identifier": "B-03",
+    "unit_type_identifier": "2B1",
+    "unit_number": "106",
+    "square_feet": 870,
+    "market_rent": "1575.00"
+  },
+  {
+    "identifier": "U-0030",
+    "property_identifier": "B-03",
+    "unit_type_identifier": "2B1",
+    "unit_number": "201",
+    "square_feet": 850,
+    "market_rent": "1725.00",
+    "maintenance_vendor_identifier": "V-112"
+  },
+  {
+    "identifier": "U-0031",
+    "property_identifier": "B-03",
+    "unit_type_identifier": "3B2",
+    "unit_number": "202",
+    "square_feet": 1240,
+    "market_rent": "2400.00",
+    "maintenance_vendor_identifier": "V-109"
+  },
+  {
+    "identifier": "U-0032",
+    "property_identifier": "B-03",
+    "unit_type_identifier": "2B1",
+    "unit_number": "203",
+    "square_feet": 900,
+    "market_rent": "1675.00",
+    "maintenance_vendor_identifier": "V-106"
+  },
+  {
+    "identifier": "U-0033",
+    "property_identifier": "B-03",
+    "unit_type_identifier": "2B1",
+    "unit_number": "204",
+    "square_feet": 900,
+    "market_rent": "1725.00"
+  },
+  {
+    "identifier": "U-0034",
+    "property_identifier": "B-03",
+    "unit_type_identifier": "RTL",
+    "unit_number": "R1",
+    "square_feet": 1820,
+    "market_rent": "4325.00"
+  },
+  {
+    "identifier": "U-0035",
+    "property_identifier": "B-03",
+    "unit_type_identifier": "RTL",
+    "unit_number": "R2",
+    "square_feet": 1850,
+    "market_rent": "4225.00"
+  },
+  {
+    "identifier": "U-0036",
+    "property_identifier": "B-04",
+    "unit_type_identifier": "1B1",
+    "unit_number": "101",
+    "square_feet": 740,
+    "market_rent": "1450.00",
+    "maintenance_vendor_identifier": "V-108"
+  },
+  {
+    "identifier": "U-0037",
+    "property_identifier": "B-04",
+    "unit_type_identifier": "STU",
+    "unit_number": "102",
+    "square_feet": 520,
+    "market_rent": "1300.00",
+    "maintenance_vendor_identifier": "V-102"
+  },
+  {
+    "identifier": "U-0038",
+    "property_identifier": "B-04",
+    "unit_type_identifier": "2B1",
+    "unit_number": "103",
+    "square_feet": 900,
+    "market_rent": "1775.00"
+  },
+  {
+    "identifier": "U-0039",
+    "property_identifier": "B-04",
+    "unit_type_identifier": "3B2",
+    "unit_number": "104",
+    "square_feet": 1230,
+    "market_rent": "2350.00",
+    "maintenance_vendor_identifier": "V-101"
+  },
+  {
+    "identifier": "U-0040",
+    "property_identifier": "B-04",
+    "unit_type_identifier": "2B2",
+    "unit_number": "105",
+    "square_feet": 990,
+    "market_rent": "2025.00",
+    "maintenance_vendor_identifier": "V-103"
+  },
+  {
+    "identifier": "U-0041",
+    "property_identifier": "B-04",
+    "unit_type_identifier": "1B1",
+    "unit_number": "106",
+    "square_feet": 730,
+    "market_rent": "1375.00",
+    "maintenance_vendor_identifier": "V-108"
+  },
+  {
+    "identifier": "U-0042",
+    "property_identifier": "B-04",
+    "unit_type_identifier": "STU",
+    "unit_number": "201",
+    "square_feet": 490,
+    "market_rent": "1225.00",
+    "maintenance_vendor_identifier": "V-104"
+  },
+  {
+    "identifier": "U-0043",
+    "property_identifier": "B-04",
+    "unit_type_identifier": "STU",
+    "unit_number": "202",
+    "square_feet": 540,
+    "market_rent": "1275.00",
+    "maintenance_vendor_identifier": "V-102"
+  },
+  {
+    "identifier": "U-0044",
+    "property_identifier": "B-04",
+    "unit_type_identifier": "1B1",
+    "unit_number": "203",
+    "square_feet": 710,
+    "market_rent": "1375.00",
+    "maintenance_vendor_identifier": "V-109"
+  },
+  {
+    "identifier": "U-0045",
+    "property_identifier": "B-04",
+    "unit_type_identifier": "2B2",
+    "unit_number": "204",
+    "square_feet": 980,
+    "market_rent": "1925.00",
+    "maintenance_vendor_identifier": "V-107"
+  },
+  {
+    "identifier": "U-0046",
+    "property_identifier": "B-04",
+    "unit_type_identifier": "2B2",
+    "unit_number": "205",
+    "square_feet": 1020,
+    "market_rent": "1825.00",
+    "maintenance_vendor_identifier": "V-109"
+  },
+  {
+    "identifier": "U-0047",
+    "property_identifier": "B-05",
+    "unit_type_identifier": "3B2",
+    "unit_number": "101",
+    "square_feet": 1320,
+    "market_rent": "2325.00",
+    "maintenance_vendor_identifier": "V-107"
+  },
+  {
+    "identifier": "U-0048",
+    "property_identifier": "B-05",
+    "unit_type_identifier": "1B1",
+    "unit_number": "102",
+    "square_feet": 730,
+    "market_rent": "1250.00",
+    "maintenance_vendor_identifier": "V-105"
+  },
+  {
+    "identifier": "U-0049",
+    "property_identifier": "B-05",
+    "unit_type_identifier": "1B1",
+    "unit_number": "103",
+    "square_feet": 660,
+    "market_rent": "1450.00"
+  },
+  {
+    "identifier": "U-0050",
+    "property_identifier": "B-05",
+    "unit_type_identifier": "2B1",
+    "unit_number": "104",
+    "square_feet": 870,
+    "market_rent": "1575.00"
+  },
+  {
+    "identifier": "U-0051",
+    "property_identifier": "B-05",
+    "unit_type_identifier": "STU",
+    "unit_number": "105",
+    "square_feet": 470,
+    "market_rent": "1175.00",
+    "maintenance_vendor_identifier": "V-101"
+  },
+  {
+    "identifier": "U-0052",
+    "property_identifier": "B-05",
+    "unit_type_identifier": "1B1",
+    "unit_number": "106",
+    "square_feet": 660,
+    "market_rent": "1275.00",
+    "maintenance_vendor_identifier": "V-109"
+  },
+  {
+    "identifier": "U-0053",
+    "property_identifier": "B-05",
+    "unit_type_identifier": "2B2",
+    "unit_number": "201",
+    "market_rent": "1950.00"
+  },
+  {
+    "identifier": "U-0054",
+    "property_identifier": "B-05",
+    "unit_type_identifier": "2B2",
+    "unit_number": "202",
+    "square_feet": 1030,
+    "market_rent": "1825.00"
+  },
+  {
+    "identifier": "U-0055",
+    "property_identifier": "B-05",
+    "unit_type_identifier": "2B2",
+    "unit_number": "203",
+    "square_feet": 980,
+    "market_rent": "1875.00"
+  },
+  {
+    "identifier": "U-0056",
+    "property_identifier": "B-05",
+    "unit_type_identifier": "2B2",
+    "unit_number": "204",
+    "market_rent": "2050.00"
+  },
+  {
+    "identifier": "U-0057",
+    "property_identifier": "B-05",
+    "unit_type_identifier": "STU",
+    "unit_number": "205",
+    "square_feet": 500,
+    "market_rent": "1175.00"
+  },
+  {
+    "identifier": "U-0058",
+    "property_identifier": "B-05",
+    "unit_type_identifier": "2B2",
+    "unit_number": "206",
+    "square_feet": 1000,
+    "market_rent": "1825.00",
+    "maintenance_vendor_identifier": "V-104"
+  },
+  {
+    "identifier": "U-0059",
+    "property_identifier": "B-05",
+    "unit_type_identifier": "RTL",
+    "unit_number": "R1",
+    "square_feet": 1840,
+    "market_rent": "4250.00"
+  },
+  {
+    "identifier": "U-0060",
+    "property_identifier": "B-06",
+    "unit_type_identifier": "3B2",
+    "unit_number": "101",
+    "square_feet": 1230,
+    "market_rent": "2200.00",
+    "maintenance_vendor_identifier": "V-101"
+  },
+  {
+    "identifier": "U-0061",
+    "property_identifier": "B-06",
+    "unit_type_identifier": "3B2",
+    "unit_number": "102",
+    "square_feet": 1230,
+    "market_rent": "2225.00"
+  },
+  {
+    "identifier": "U-0062",
+    "property_identifier": "B-06",
+    "unit_type_identifier": "1B1",
+    "unit_number": "103",
+    "square_feet": 650,
+    "market_rent": "1250.00"
+  },
+  {
+    "identifier": "U-0063",
+    "property_identifier": "B-06",
+    "unit_type_identifier": "1B1",
+    "unit_number": "104",
+    "square_feet": 720,
+    "market_rent": "1425.00"
+  },
+  {
+    "identifier": "U-0064",
+    "property_identifier": "B-06",
+    "unit_type_identifier": "STU",
+    "unit_number": "105",
+    "market_rent": "1050.00"
+  },
+  {
+    "identifier": "U-0065",
+    "property_identifier": "B-06",
+    "unit_type_identifier": "1B1",
+    "unit_number": "106",
+    "square_feet": 650,
+    "market_rent": "1550.00",
+    "maintenance_vendor_identifier": "V-111"
+  },
+  {
+    "identifier": "U-0066",
+    "property_identifier": "B-06",
+    "unit_type_identifier": "2B2",
+    "unit_number": "201",
+    "square_feet": 980,
+    "market_rent": "1850.00"
+  },
+  {
+    "identifier": "U-0067",
+    "property_identifier": "B-06",
+    "unit_type_identifier": "1B1",
+    "unit_number": "202",
+    "square_feet": 650,
+    "market_rent": "1500.00"
+  },
+  {
+    "identifier": "U-0068",
+    "property_identifier": "B-06",
+    "unit_type_identifier": "1B1",
+    "unit_number": "203",
+    "square_feet": 690,
+    "market_rent": "1500.00"
+  },
+  {
+    "identifier": "U-0069",
+    "property_identifier": "B-06",
+    "unit_type_identifier": "2B1",
+    "unit_number": "204",
+    "square_feet": 870,
+    "market_rent": "1575.00",
+    "maintenance_vendor_identifier": "V-109"
+  },
+  {
+    "identifier": "U-0070",
+    "property_identifier": "B-06",
+    "unit_type_identifier": "3B2",
+    "unit_number": "205",
+    "square_feet": 1280,
+    "market_rent": "2325.00"
+  },
+  {
+    "identifier": "U-0071",
+    "property_identifier": "B-07",
+    "unit_type_identifier": "3B2",
+    "unit_number": "101",
+    "square_feet": 1240,
+    "market_rent": "2200.00"
+  },
+  {
+    "identifier": "U-0072",
+    "property_identifier": "B-07",
+    "unit_type_identifier": "1B1",
+    "unit_number": "102",
+    "square_feet": 740,
+    "market_rent": "1475.00"
+  },
+  {
+    "identifier": "U-0073",
+    "property_identifier": "B-07",
+    "unit_type_identifier": "2B1",
+    "unit_number": "103",
+    "square_feet": 880,
+    "market_rent": "1800.00",
+    "maintenance_vendor_identifier": "V-111"
+  },
+  {
+    "identifier": "U-0074",
+    "property_identifier": "B-07",
+    "unit_type_identifier": "2B2",
+    "unit_number": "104",
+    "square_feet": 1040,
+    "market_rent": "1925.00",
+    "maintenance_vendor_identifier": "V-104"
+  },
+  {
+    "identifier": "U-0075",
+    "property_identifier": "B-07",
+    "unit_type_identifier": "STU",
+    "unit_number": "105",
+    "square_feet": 490,
+    "market_rent": "1225.00",
+    "maintenance_vendor_identifier": "V-106"
+  },
+  {
+    "identifier": "U-0076",
+    "property_identifier": "B-07",
+    "unit_type_identifier": "1B1",
+    "unit_number": "106",
+    "square_feet": 670,
+    "market_rent": "1500.00"
+  },
+  {
+    "identifier": "U-0077",
+    "property_identifier": "B-07",
+    "unit_type_identifier": "1B1",
+    "unit_number": "201",
+    "square_feet": 670,
+    "market_rent": "1500.00",
+    "maintenance_vendor_identifier": "V-106"
+  },
+  {
+    "identifier": "U-0078",
+    "property_identifier": "B-07",
+    "unit_type_identifier": "1B1",
+    "unit_number": "202",
+    "square_feet": 710,
+    "market_rent": "1475.00",
+    "maintenance_vendor_identifier": "V-106"
+  },
+  {
+    "identifier": "U-0079",
+    "property_identifier": "B-07",
+    "unit_type_identifier": "2B2",
+    "unit_number": "203",
+    "square_feet": 980,
+    "market_rent": "1825.00",
+    "maintenance_vendor_identifier": "V-110"
+  },
+  {
+    "identifier": "U-0080",
+    "property_identifier": "B-07",
+    "unit_type_identifier": "3B2",
+    "unit_number": "204",
+    "square_feet": 1240,
+    "market_rent": "2300.00"
+  },
+  {
+    "identifier": "U-0081",
+    "property_identifier": "B-07",
+    "unit_type_identifier": "2B1",
+    "unit_number": "205",
+    "square_feet": 900,
+    "market_rent": "1800.00"
+  },
+  {
+    "identifier": "U-0082",
+    "property_identifier": "B-07",
+    "unit_type_identifier": "2B2",
+    "unit_number": "206",
+    "square_feet": 1010,
+    "market_rent": "1775.00",
+    "maintenance_vendor_identifier": "V-102"
+  },
+  {
+    "identifier": "U-0083",
+    "property_identifier": "B-07",
+    "unit_type_identifier": "RTL",
+    "unit_number": "R1",
+    "square_feet": 1820,
+    "market_rent": "4225.00",
+    "maintenance_vendor_identifier": "V-103"
+  }
+]

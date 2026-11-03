@@ -1,0 +1,98 @@
+[
+  {
+    "identifier": "V-101",
+    "name": "Desert Plumbing Co",
+    "type": "business",
+    "payment_terms_name": "Due on receipt",
+    "email": "service@desertplumbingco.com",
+    "phone": "+17205556296"
+  },
+  {
+    "identifier": "V-102",
+    "name": "Sun Valley HVAC",
+    "type": "business",
+    "payment_terms_name": "Net 30",
+    "email": "service@sunvalleyhvac.com",
+    "phone": "+17025556828"
+  },
+  {
+    "identifier": "V-103",
+    "name": "Canyon Electric LLC",
+    "type": "business",
+    "payment_terms_name": "Net 30",
+    "email": "service@canyonelectricllc.com",
+    "phone": "+17205557342"
+  },
+  {
+    "identifier": "V-104",
+    "name": "Brightline Janitorial",
+    "type": "business",
+    "payment_terms_name": "Net 30",
+    "email": "service@brightlinejanitorial.com",
+    "phone": "+15205556255"
+  },
+  {
+    "identifier": "V-105",
+    "name": "Ironclad Locksmiths",
+    "type": "business",
+    "payment_terms_name": "Net 15",
+    "email": "service@ironcladlocksmiths.com",
+    "phone": "+15055551347"
+  },
+  {
+    "identifier": "V-106",
+    "name": "Mesa Pest Solutions",
+    "type": "business",
+    "payment_terms_name": "Due on receipt",
+    "email": "service@mesapestsolutions.com",
+    "phone": "+16025558083"
+  },
+  {
+    "identifier": "V-107",
+    "name": "Red Rock Roofing",
+    "type": "business",
+    "payment_terms_name": "Net 30",
+    "email": "service@redrockroofing.com",
+    "phone": "+16025552037"
+  },
+  {
+    "identifier": "V-108",
+    "name": "Copper Pool Services",
+    "type": "business",
+    "payment_terms_name": "Net 45",
+    "email": "service@copperpoolservices.com",
+    "phone": "+19155554604"
+  },
+  {
+    "identifier": "V-109",
+    "name": "Summit Landscaping",
+    "type": "business",
+    "payment_terms_name": "Net 45",
+    "email": "service@summitlandscaping.com",
+    "phone": "+18015551843"
+  },
+  {
+    "identifier": "V-110",
+    "name": "Apex Appliance Repair",
+    "type": "business",
+    "payment_terms_name": "Net 30",
+    "email": "service@apexappliancerepair.com",
+    "phone": "+16025556387"
+  },
+  {
+    "identifier": "V-111",
+    "name": "Ray Ortiz",
+    "type": "individual",
+    "payment_terms_name": "Net 30",
+    "email": "ray.ortiz@gmail.com",
+    "phone": "+14805558636"
+  },
+  {
+    "identifier": "V-112",
+    "name": "Linda Tran",
+    "type": "individual",
+    "payment_terms_name": "Net 15",
+    "email": "linda.tran@gmail.com",
+    "phone": "+19155556797"
+  }
+]

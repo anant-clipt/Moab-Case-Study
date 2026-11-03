@@ -1,0 +1,72 @@
+[
+  {
+    "BLDG_ID": "B-01",
+    "BLDG_NAME": "Saguaro Flats",
+    "PORTFOLIO": "PF-1",
+    "ADDR": "2238 Colfax Ave",
+    "CITY": "Tempe",
+    "ST": "AZ",
+    "ZIP": "85291",
+    "TZ": "MST"
+  },
+  {
+    "BLDG_ID": "B-02",
+    "BLDG_NAME": "Palo Verde Row",
+    "PORTFOLIO": "PF-2",
+    "ADDR": "5069 Broadway",
+    "CITY": "El Paso",
+    "ST": "TX",
+    "ZIP": "79950-7595",
+    "TZ": "CST"
+  },
+  {
+    "BLDG_ID": "B-03",
+    "BLDG_NAME": "Canyon View Lofts",
+    "PORTFOLIO": "PF-3",
+    "ADDR": "489 Desert Inn Rd",
+    "CITY": "Albuquerque",
+    "ST": "NM",
+    "ZIP": "87155",
+    "TZ": "MST"
+  },
+  {
+    "BLDG_ID": "B-04",
+    "BLDG_NAME": "Pinon Ridge",
+    "PORTFOLIO": "PF-2",
+    "ADDR": "2586 Mill Ave",
+    "CITY": "Mesa",
+    "ST": "AZ",
+    "ZIP": "85257",
+    "TZ": "Arizona"
+  },
+  {
+    "BLDG_ID": "B-05",
+    "BLDG_NAME": "Mesquite Commons",
+    "PORTFOLIO": "PF-1",
+    "ADDR": "3556 Central Ave",
+    "CITY": "Tucson",
+    "ST": "AZ",
+    "ZIP": "85766",
+    "TZ": "Mountain"
+  },
+  {
+    "BLDG_ID": "B-06",
+    "BLDG_NAME": "Red Rock Terrace",
+    "PORTFOLIO": "PF-1",
+    "ADDR": "5197 Desert Inn Rd",
+    "CITY": "Las Vegas",
+    "ST": "NV",
+    "ZIP": "89115-6583",
+    "TZ": "Pacific"
+  },
+  {
+    "BLDG_ID": "B-07",
+    "BLDG_NAME": "Juniper Court",
+    "PORTFOLIO": "PF-3",
+    "ADDR": "8198 Colfax Ave",
+    "CITY": "Denver",
+    "ST": "CO",
+    "ZIP": "80248",
+    "TZ": "MT"
+  }
+]

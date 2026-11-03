@@ -1,0 +1,44 @@
+[
+  {
+    "TYPE_CODE": "STU",
+    "DESCR": "Studio",
+    "BEDS": 0,
+    "BATHS": "1",
+    "BASE_RENT": 1150.0
+  },
+  {
+    "TYPE_CODE": "1B1",
+    "DESCR": "1BR / 1BA",
+    "BEDS": 1,
+    "BATHS": 1.0,
+    "BASE_RENT": 1350.0
+  },
+  {
+    "TYPE_CODE": "2B1",
+    "DESCR": "2BR / 1BA",
+    "BEDS": 2,
+    "BATHS": 1.0,
+    "BASE_RENT": 1600.0
+  },
+  {
+    "TYPE_CODE": "2B2",
+    "DESCR": "2BR / 2BA",
+    "BEDS": 2,
+    "BATHS": 2.0,
+    "BASE_RENT": 1850.0
+  },
+  {
+    "TYPE_CODE": "3B2",
+    "DESCR": "3BR / 2BA",
+    "BEDS": 3,
+    "BATHS": 2.0,
+    "BASE_RENT": 2250.0
+  },
+  {
+    "TYPE_CODE": "RTL",
+    "DESCR": "Ground-floor retail suite",
+    "BEDS": 0,
+    "BATHS": "1",
+    "BASE_RENT": 4200.0
+  }
+]

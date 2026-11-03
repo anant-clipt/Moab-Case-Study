@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Due on receipt",
+    "terms": "due_on_receipt"
+  },
+  {
+    "name": "Net 15",
+    "terms": "net_15"
+  },
+  {
+    "name": "Net 30",
+    "terms": "net_30"
+  },
+  {
+    "name": "Net 45",
+    "terms": "net_45"
+  }
+]

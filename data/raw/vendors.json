@@ -1,0 +1,98 @@
+[
+  {
+    "VENDOR_ID": "V-101",
+    "VEND_NAME": "Desert Plumbing Co",
+    "VEND_TYPE": "CO",
+    "EMAIL": "service@desertplumbingco.com",
+    "PHONE": "+1 720 555 6296",
+    "TERMS": "COD"
+  },
+  {
+    "VENDOR_ID": "V-102",
+    "VEND_NAME": "Sun Valley HVAC",
+    "VEND_TYPE": "CO",
+    "EMAIL": "service@sunvalleyhvac.com",
+    "PHONE": "702-555-6828 x66",
+    "TERMS": "Net 30"
+  },
+  {
+    "VENDOR_ID": "V-103",
+    "VEND_NAME": "Canyon Electric LLC",
+    "VEND_TYPE": "CO",
+    "EMAIL": "service@canyonelectricllc.com",
+    "PHONE": "720.555.7342",
+    "TERMS": "NET30"
+  },
+  {
+    "VENDOR_ID": "V-104",
+    "VEND_NAME": "Brightline Janitorial",
+    "VEND_TYPE": "CO",
+    "EMAIL": "service@brightlinejanitorial.com",
+    "PHONE": "520-555-6255",
+    "TERMS": "net-30"
+  },
+  {
+    "VENDOR_ID": "V-105",
+    "VEND_NAME": "Ironclad Locksmiths",
+    "VEND_TYPE": "CO",
+    "EMAIL": "service@ironcladlocksmiths.com",
+    "PHONE": "505-555-1347 x44",
+    "TERMS": "15 DAYS"
+  },
+  {
+    "VENDOR_ID": "V-106",
+    "VEND_NAME": "Mesa Pest Solutions",
+    "VEND_TYPE": "CO",
+    "EMAIL": "service@mesapestsolutions.com",
+    "PHONE": "602.555.8083",
+    "TERMS": "COD"
+  },
+  {
+    "VENDOR_ID": "V-107",
+    "VEND_NAME": "Red Rock Roofing",
+    "VEND_TYPE": "CO",
+    "EMAIL": "SERVICE@REDROCKROOFING.COM",
+    "PHONE": "+1 602 555 2037",
+    "TERMS": "N30"
+  },
+  {
+    "VENDOR_ID": "V-108",
+    "VEND_NAME": "Copper Pool Services",
+    "VEND_TYPE": "CO",
+    "EMAIL": "service@copperpoolservices.com",
+    "PHONE": "915.555.4604",
+    "TERMS": "net 45 days"
+  },
+  {
+    "VENDOR_ID": "V-109",
+    "VEND_NAME": "Summit Landscaping",
+    "VEND_TYPE": "CO",
+    "EMAIL": "service@summitlandscaping.com ",
+    "PHONE": "801-555-1843",
+    "TERMS": "Net 45"
+  },
+  {
+    "VENDOR_ID": "V-110",
+    "VEND_NAME": "Apex Appliance Repair",
+    "VEND_TYPE": "CO",
+    "EMAIL": "service@apexappliancerepair.com",
+    "PHONE": "+1 602 555 6387",
+    "TERMS": "30 days"
+  },
+  {
+    "VENDOR_ID": "V-111",
+    "VEND_NAME": "Ray Ortiz",
+    "VEND_TYPE": "IND",
+    "EMAIL": "ray.ortiz@gmail.com",
+    "PHONE": "480.555.8636",
+    "TERMS": "30 days"
+  },
+  {
+    "VENDOR_ID": "V-112",
+    "VEND_NAME": "Linda Tran",
+    "VEND_TYPE": "IND",
+    "EMAIL": "linda.tran@gmail.com",
+    "PHONE": "+1 915 555 6797",
+    "TERMS": "15 DAYS"
+  }
+]
