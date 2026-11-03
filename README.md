@@ -1,20 +1,18 @@
-# Mesa Property Group move
+Hey Ben and Moab Team!
 
-Mesa is moving from LeaseLedger (the old system) to Keystone (the new one). This repo is the work for that move.
+Thanks for giving me the opportunity to work through this case study. Was fun thinking about a messy old system and how far you can get the data into the new one without making anything up.
 
-Carmen Ortiz runs operations at Mesa. The notes and spreadsheets in here are written for her, in plain language.
+We loaded Keystone one layer at a time and checked each layer before moving on. If something required was missing, or we couldn't tell what was right, we left that record out and put it on Carmen's sheet.
 
-## What is in here
+What's in here:
 
-- `docs/rules.md` says what we load, what we leave out, and why.
-- `docs/what-we-found.md` is the messy stuff we saw in the old data.
-- `docs/note-to-carmen.md` is the letter that goes with the spreadsheets.
-- `data/raw/` is a copy of the old data, unchanged.
-- `data/ready/` is what we send to Keystone.
-- `data/review/` is the spreadsheets Carmen uses to fix what we could not.
-- `scripts/` is the code that downloads, cleans, loads, and checks.
-
-## How to run it
+- `data/raw/` is LeaseLedger, saved the way it came down.
+- `data/ready/` is what we were willing to send.
+- `data/review/` is Carmen's spreadsheets and the note that goes with them.
+- `data/answers.json` is the three questions.
+- `writeup.md` is the short version of the calls we made.
+- `docs/rules.md` is the rules we wrote down before loading anything.
+- `scripts/` is the download, the cleanup, the load, and the answers. `04_load.py` takes one layer at a time, like `python3 scripts/04_load.py accounts`.
 
 From this folder, with Python 3:
 
@@ -22,11 +20,8 @@ From this folder, with Python 3:
 python3 scripts/01_download.py
 python3 scripts/02_look.py
 python3 scripts/03_prepare.py
-python3 scripts/04_load.py
-python3 scripts/05_check.py
+python3 scripts/04_load.py portfolios
 python3 scripts/06_answers.py
 ```
 
-Each script reads the files from the step before it. We can wipe Keystone and load again. That does not touch the old data.
-
-We do not send the final package until the note to Carmen has been read.
+The load script also does `unit_types`, `terms`, `properties`, `vendors`, `accounts`, `contacts`, `primary_contacts`, `units`, and `leases`, in that order. `python3 scripts/04_load.py reset` wipes Keystone and leaves the old files alone.
