@@ -1,0 +1,2787 @@
+[
+  {
+    "identifier": "L-50001",
+    "account_identifier": "T-1104",
+    "property_identifier": "B-05",
+    "status": "ended",
+    "start_date": "2023-11-01",
+    "end_date": "2024-10-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0049",
+        "charge_type": "rent",
+        "monthly_amount": "1400.00"
+      }
+    ]
+  },
+  {
+    "identifier": "L-50002",
+    "account_identifier": "T-1061",
+    "property_identifier": "B-07",
+    "status": "ended",
+    "start_date": "2023-11-01",
+    "end_date": "2024-10-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0080",
+        "charge_type": "rent",
+        "monthly_amount": "2250.00"
+      }
+    ],
+    "contact_legacy_id": "O-3083"
+  },
+  {
+    "identifier": "L-50003",
+    "account_identifier": "T-1052",
+    "property_identifier": "B-03",
+    "status": "ended",
+    "start_date": "2024-01-01",
+    "end_date": "2024-12-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0024",
+        "charge_type": "rent",
+        "monthly_amount": "1800.00"
+      }
+    ],
+    "contact_legacy_id": "O-3070"
+  },
+  {
+    "identifier": "L-50004",
+    "account_identifier": "T-1057",
+    "property_identifier": "B-06",
+    "status": "ended",
+    "start_date": "2024-01-01",
+    "end_date": "2024-12-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0065",
+        "charge_type": "rent",
+        "monthly_amount": "1500.00"
+      },
+      {
+        "unit_identifier": "U-0065",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3077"
+  },
+  {
+    "identifier": "L-50005",
+    "account_identifier": "T-1102",
+    "property_identifier": "B-06",
+    "status": "ended",
+    "start_date": "2024-01-01",
+    "end_date": "2024-12-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0070",
+        "charge_type": "rent",
+        "monthly_amount": "2275.00"
+      }
+    ],
+    "contact_legacy_id": "O-3144"
+  },
+  {
+    "identifier": "L-50006",
+    "account_identifier": "T-1089",
+    "property_identifier": "B-02",
+    "status": "ended",
+    "start_date": "2024-02-01",
+    "end_date": "2025-01-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0013",
+        "charge_type": "rent",
+        "monthly_amount": "1500.00"
+      }
+    ]
+  },
+  {
+    "identifier": "L-50007",
+    "account_identifier": "T-1145",
+    "property_identifier": "B-07",
+    "status": "ended",
+    "start_date": "2024-02-01",
+    "end_date": "2025-01-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0077",
+        "charge_type": "rent",
+        "monthly_amount": "1450.00"
+      }
+    ],
+    "contact_legacy_id": "O-3205"
+  },
+  {
+    "identifier": "L-50008",
+    "account_identifier": "T-1072",
+    "property_identifier": "B-02",
+    "status": "ended",
+    "start_date": "2024-03-01",
+    "end_date": "2025-02-28",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0017",
+        "charge_type": "rent",
+        "monthly_amount": "1250.00"
+      },
+      {
+        "unit_identifier": "U-0017",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ]
+  },
+  {
+    "identifier": "L-50009",
+    "account_identifier": "T-1116",
+    "property_identifier": "B-02",
+    "status": "ended",
+    "start_date": "2024-03-01",
+    "end_date": "2025-02-28",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0020",
+        "charge_type": "rent",
+        "monthly_amount": "2275.00"
+      },
+      {
+        "unit_identifier": "U-0020",
+        "charge_type": "storage",
+        "monthly_amount": "40.00"
+      }
+    ],
+    "contact_legacy_id": "O-3166"
+  },
+  {
+    "identifier": "L-50010",
+    "account_identifier": "T-1031",
+    "property_identifier": "B-05",
+    "status": "ended",
+    "start_date": "2024-03-01",
+    "end_date": "2025-02-28",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0047",
+        "charge_type": "rent",
+        "monthly_amount": "2275.00"
+      },
+      {
+        "unit_identifier": "U-0047",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3043"
+  },
+  {
+    "identifier": "L-50011",
+    "account_identifier": "T-1013",
+    "property_identifier": "B-06",
+    "status": "ended",
+    "start_date": "2024-03-01",
+    "end_date": "2025-02-28",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0060",
+        "charge_type": "rent",
+        "monthly_amount": "2150.00"
+      }
+    ],
+    "contact_legacy_id": "O-3016"
+  },
+  {
+    "identifier": "L-50012",
+    "account_identifier": "T-1059",
+    "property_identifier": "B-07",
+    "status": "ended",
+    "start_date": "2024-03-01",
+    "end_date": "2025-02-28",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0079",
+        "charge_type": "rent",
+        "monthly_amount": "1775.00"
+      }
+    ],
+    "contact_legacy_id": "O-3080"
+  },
+  {
+    "identifier": "L-50013",
+    "account_identifier": "T-1084",
+    "property_identifier": "B-03",
+    "status": "ended",
+    "start_date": "2024-04-01",
+    "end_date": "2025-03-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0025",
+        "charge_type": "rent",
+        "monthly_amount": "1200.00"
+      },
+      {
+        "unit_identifier": "U-0025",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ],
+    "contact_legacy_id": "O-3120"
+  },
+  {
+    "identifier": "L-50014",
+    "account_identifier": "T-1120",
+    "property_identifier": "B-04",
+    "status": "ended",
+    "start_date": "2024-04-01",
+    "end_date": "2025-03-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0045",
+        "charge_type": "rent",
+        "monthly_amount": "1875.00"
+      },
+      {
+        "unit_identifier": "U-0045",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ]
+  },
+  {
+    "identifier": "L-50015",
+    "account_identifier": "T-1034",
+    "property_identifier": "B-04",
+    "status": "ended",
+    "start_date": "2024-05-01",
+    "end_date": "2025-04-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0038",
+        "charge_type": "rent",
+        "monthly_amount": "1725.00"
+      },
+      {
+        "unit_identifier": "U-0038",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      },
+      {
+        "unit_identifier": "U-0038",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ],
+    "contact_legacy_id": "O-3046"
+  },
+  {
+    "identifier": "L-50016",
+    "account_identifier": "T-1015",
+    "property_identifier": "B-05",
+    "status": "ended",
+    "start_date": "2024-05-01",
+    "end_date": "2025-04-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0057",
+        "charge_type": "rent",
+        "monthly_amount": "1125.00"
+      },
+      {
+        "unit_identifier": "U-0057",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ],
+    "contact_legacy_id": "O-3018"
+  },
+  {
+    "identifier": "L-50017",
+    "account_identifier": "T-1105",
+    "property_identifier": "B-01",
+    "status": "ended",
+    "start_date": "2024-06-01",
+    "end_date": "2025-05-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0007",
+        "charge_type": "rent",
+        "monthly_amount": "1875.00"
+      },
+      {
+        "unit_identifier": "U-0007",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ]
+  },
+  {
+    "identifier": "L-50018",
+    "account_identifier": "T-1065",
+    "property_identifier": "B-02",
+    "status": "ended",
+    "start_date": "2024-06-01",
+    "end_date": "2025-05-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0021",
+        "charge_type": "rent",
+        "monthly_amount": "2150.00"
+      },
+      {
+        "unit_identifier": "U-0021",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3089"
+  },
+  {
+    "identifier": "L-50019",
+    "account_identifier": "T-1009",
+    "property_identifier": "B-02",
+    "status": "ended",
+    "start_date": "2024-06-01",
+    "end_date": "2025-05-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0023",
+        "charge_type": "rent",
+        "monthly_amount": "4200.00"
+      }
+    ],
+    "contact_legacy_id": "O-3012"
+  },
+  {
+    "identifier": "L-50020",
+    "account_identifier": "T-1071",
+    "property_identifier": "B-05",
+    "status": "ended",
+    "start_date": "2024-06-01",
+    "end_date": "2025-05-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0055",
+        "charge_type": "rent",
+        "monthly_amount": "1825.00"
+      }
+    ]
+  },
+  {
+    "identifier": "L-50021",
+    "account_identifier": "T-1016",
+    "property_identifier": "B-02",
+    "status": "ended",
+    "start_date": "2024-08-01",
+    "end_date": "2025-07-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0019",
+        "charge_type": "rent",
+        "monthly_amount": "1225.00"
+      }
+    ],
+    "contact_legacy_id": "O-3019"
+  },
+  {
+    "identifier": "L-50022",
+    "account_identifier": "T-1046",
+    "property_identifier": "B-03",
+    "status": "ended",
+    "start_date": "2024-08-01",
+    "end_date": "2025-07-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0032",
+        "charge_type": "rent",
+        "monthly_amount": "1625.00"
+      }
+    ],
+    "contact_legacy_id": "O-3063"
+  },
+  {
+    "identifier": "L-50023",
+    "account_identifier": "T-1075",
+    "property_identifier": "B-04",
+    "status": "ended",
+    "start_date": "2024-08-01",
+    "end_date": "2025-07-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0046",
+        "charge_type": "rent",
+        "monthly_amount": "1775.00"
+      }
+    ],
+    "contact_legacy_id": "O-3106"
+  },
+  {
+    "identifier": "L-50024",
+    "account_identifier": "T-1103",
+    "property_identifier": "B-07",
+    "status": "ended",
+    "start_date": "2024-08-01",
+    "end_date": "2025-07-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0082",
+        "charge_type": "rent",
+        "monthly_amount": "1725.00"
+      }
+    ],
+    "contact_legacy_id": "O-3145"
+  },
+  {
+    "identifier": "L-50025",
+    "account_identifier": "T-1110",
+    "property_identifier": "B-01",
+    "status": "ended",
+    "start_date": "2024-09-01",
+    "end_date": "2025-08-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0002",
+        "charge_type": "rent",
+        "monthly_amount": "1625.00"
+      },
+      {
+        "unit_identifier": "U-0002",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3156"
+  },
+  {
+    "identifier": "L-50026",
+    "account_identifier": "T-1038",
+    "property_identifier": "B-06",
+    "status": "ended",
+    "start_date": "2024-09-01",
+    "end_date": "2025-08-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0062",
+        "charge_type": "rent",
+        "monthly_amount": "1200.00"
+      },
+      {
+        "unit_identifier": "U-0062",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ]
+  },
+  {
+    "identifier": "L-50027",
+    "account_identifier": "T-1137",
+    "property_identifier": "B-07",
+    "status": "ended",
+    "start_date": "2024-09-01",
+    "end_date": "2025-08-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0071",
+        "charge_type": "rent",
+        "monthly_amount": "2150.00"
+      },
+      {
+        "unit_identifier": "U-0071",
+        "charge_type": "storage",
+        "monthly_amount": "40.00"
+      }
+    ],
+    "contact_legacy_id": "O-3195"
+  },
+  {
+    "identifier": "L-50028",
+    "account_identifier": "T-1083",
+    "property_identifier": "B-07",
+    "status": "ended",
+    "start_date": "2024-09-01",
+    "end_date": "2025-08-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0074",
+        "charge_type": "rent",
+        "monthly_amount": "1875.00"
+      }
+    ],
+    "contact_legacy_id": "O-3118"
+  },
+  {
+    "identifier": "L-50029",
+    "account_identifier": "T-1055",
+    "property_identifier": "B-06",
+    "status": "ended",
+    "start_date": "2024-10-01",
+    "end_date": "2025-09-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0066",
+        "charge_type": "rent",
+        "monthly_amount": "1800.00"
+      },
+      {
+        "unit_identifier": "U-0066",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ]
+  },
+  {
+    "identifier": "L-50030",
+    "account_identifier": "T-1135",
+    "property_identifier": "B-01",
+    "status": "ended",
+    "start_date": "2024-11-01",
+    "end_date": "2025-10-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0005",
+        "charge_type": "rent",
+        "monthly_amount": "1700.00"
+      }
+    ],
+    "contact_legacy_id": "O-3192"
+  },
+  {
+    "identifier": "L-50031",
+    "account_identifier": "T-1050",
+    "property_identifier": "B-04",
+    "status": "ended",
+    "start_date": "2024-11-01",
+    "end_date": "2025-10-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0044",
+        "charge_type": "rent",
+        "monthly_amount": "1325.00"
+      },
+      {
+        "unit_identifier": "U-0044",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      },
+      {
+        "unit_identifier": "U-0044",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ],
+    "contact_legacy_id": "O-3068"
+  },
+  {
+    "identifier": "L-50032",
+    "account_identifier": "T-1123",
+    "property_identifier": "B-05",
+    "status": "active",
+    "start_date": "2024-11-01",
+    "end_date": "2026-10-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0049",
+        "charge_type": "rent",
+        "monthly_amount": "1450.00"
+      }
+    ],
+    "contact_legacy_id": "O-3177"
+  },
+  {
+    "identifier": "L-50033",
+    "account_identifier": "T-1005",
+    "property_identifier": "B-06",
+    "status": "ended",
+    "start_date": "2024-11-01",
+    "end_date": "2025-10-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0068",
+        "charge_type": "rent",
+        "monthly_amount": "1450.00"
+      }
+    ],
+    "contact_legacy_id": "O-3005"
+  },
+  {
+    "identifier": "L-50034",
+    "account_identifier": "T-1087",
+    "property_identifier": "B-07",
+    "status": "ended",
+    "start_date": "2024-11-01",
+    "end_date": "2025-10-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0072",
+        "charge_type": "rent",
+        "monthly_amount": "1425.00"
+      }
+    ],
+    "contact_legacy_id": "O-3123"
+  },
+  {
+    "identifier": "L-50035",
+    "account_identifier": "T-1118",
+    "property_identifier": "B-07",
+    "status": "active",
+    "start_date": "2024-11-01",
+    "end_date": "2026-10-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0080",
+        "charge_type": "rent",
+        "monthly_amount": "2300.00"
+      },
+      {
+        "unit_identifier": "U-0080",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ],
+    "contact_legacy_id": "O-3170"
+  },
+  {
+    "identifier": "L-50036",
+    "account_identifier": "T-1048",
+    "property_identifier": "B-07",
+    "status": "ended",
+    "start_date": "2024-11-01",
+    "end_date": "2025-10-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0081",
+        "charge_type": "rent",
+        "monthly_amount": "1750.00"
+      }
+    ],
+    "contact_legacy_id": "O-3066"
+  },
+  {
+    "identifier": "L-50037",
+    "account_identifier": "T-1047",
+    "property_identifier": "B-01",
+    "status": "ended",
+    "start_date": "2024-12-01",
+    "end_date": "2025-11-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0004",
+        "charge_type": "rent",
+        "monthly_amount": "1300.00"
+      },
+      {
+        "unit_identifier": "U-0004",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3065"
+  },
+  {
+    "identifier": "L-50038",
+    "account_identifier": "T-1035",
+    "property_identifier": "B-01",
+    "status": "active",
+    "start_date": "2024-12-01",
+    "end_date": "2026-11-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0008",
+        "charge_type": "rent",
+        "monthly_amount": "1350.00"
+      },
+      {
+        "unit_identifier": "U-0008",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3047"
+  },
+  {
+    "identifier": "L-50039",
+    "account_identifier": "T-1140",
+    "property_identifier": "B-01",
+    "status": "ended",
+    "start_date": "2024-12-01",
+    "end_date": "2025-11-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0010",
+        "charge_type": "rent",
+        "monthly_amount": "1875.00"
+      },
+      {
+        "unit_identifier": "U-0010",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ],
+    "contact_legacy_id": "O-3199"
+  },
+  {
+    "identifier": "L-50040",
+    "account_identifier": "T-1122",
+    "property_identifier": "B-03",
+    "status": "ended",
+    "start_date": "2024-12-01",
+    "end_date": "2025-11-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0027",
+        "charge_type": "rent",
+        "monthly_amount": "1375.00"
+      }
+    ]
+  },
+  {
+    "identifier": "L-50041",
+    "account_identifier": "T-1044",
+    "property_identifier": "B-03",
+    "status": "ended",
+    "start_date": "2024-12-01",
+    "end_date": "2025-11-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0030",
+        "charge_type": "rent",
+        "monthly_amount": "1675.00"
+      }
+    ],
+    "contact_legacy_id": "O-3059"
+  },
+  {
+    "identifier": "L-50042",
+    "account_identifier": "T-1036",
+    "property_identifier": "B-07",
+    "status": "active",
+    "start_date": "2024-12-01",
+    "end_date": "2026-11-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0083",
+        "charge_type": "rent",
+        "monthly_amount": "4225.00"
+      }
+    ],
+    "contact_legacy_id": "O-3049"
+  },
+  {
+    "identifier": "L-50043",
+    "account_identifier": "T-1027",
+    "property_identifier": "B-03",
+    "status": "active",
+    "start_date": "2025-01-01",
+    "end_date": "2026-12-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0024",
+        "charge_type": "rent",
+        "monthly_amount": "1850.00"
+      }
+    ],
+    "contact_legacy_id": "O-3037"
+  },
+  {
+    "identifier": "L-50044",
+    "account_identifier": "T-1100",
+    "property_identifier": "B-05",
+    "status": "ended",
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0048",
+        "charge_type": "rent",
+        "monthly_amount": "1200.00"
+      }
+    ],
+    "contact_legacy_id": "O-3141"
+  },
+  {
+    "identifier": "L-50045",
+    "account_identifier": "T-1045",
+    "property_identifier": "B-05",
+    "status": "ended",
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0054",
+        "charge_type": "rent",
+        "monthly_amount": "1775.00"
+      }
+    ],
+    "contact_legacy_id": "O-3061"
+  },
+  {
+    "identifier": "L-50046",
+    "account_identifier": "T-1024",
+    "property_identifier": "B-06",
+    "status": "ended",
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0063",
+        "charge_type": "rent",
+        "monthly_amount": "1375.00"
+      },
+      {
+        "unit_identifier": "U-0063",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ]
+  },
+  {
+    "identifier": "L-50047",
+    "account_identifier": "T-1105",
+    "property_identifier": "B-06",
+    "status": "active",
+    "start_date": "2025-01-01",
+    "end_date": "2026-12-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0065",
+        "charge_type": "rent",
+        "monthly_amount": "1550.00"
+      },
+      {
+        "unit_identifier": "U-0065",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3149"
+  },
+  {
+    "identifier": "L-50048",
+    "account_identifier": "T-1008",
+    "property_identifier": "B-06",
+    "status": "active",
+    "start_date": "2025-01-01",
+    "end_date": "2026-12-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0070",
+        "charge_type": "rent",
+        "monthly_amount": "2325.00"
+      },
+      {
+        "unit_identifier": "U-0070",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ],
+    "contact_legacy_id": "O-3010"
+  },
+  {
+    "identifier": "L-50049",
+    "account_identifier": "T-1082",
+    "property_identifier": "B-07",
+    "status": "ended",
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0076",
+        "charge_type": "rent",
+        "monthly_amount": "1450.00"
+      },
+      {
+        "unit_identifier": "U-0076",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ]
+  },
+  {
+    "identifier": "L-50054",
+    "account_identifier": "T-1026",
+    "property_identifier": "B-02",
+    "status": "active",
+    "start_date": "2025-02-01",
+    "end_date": "2027-01-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0013",
+        "charge_type": "rent",
+        "monthly_amount": "1550.00"
+      },
+      {
+        "unit_identifier": "U-0013",
+        "charge_type": "storage",
+        "monthly_amount": "40.00"
+      }
+    ],
+    "po_number": "PO-18303"
+  },
+  {
+    "identifier": "L-50055",
+    "account_identifier": "T-1042",
+    "property_identifier": "B-03",
+    "status": "ended",
+    "start_date": "2025-02-01",
+    "end_date": "2026-01-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0033",
+        "charge_type": "rent",
+        "monthly_amount": "1675.00"
+      },
+      {
+        "unit_identifier": "U-0033",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3057"
+  },
+  {
+    "identifier": "L-50056",
+    "account_identifier": "T-1111",
+    "property_identifier": "B-04",
+    "status": "cancelled",
+    "start_date": "2025-02-01",
+    "end_date": "2026-01-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0039",
+        "charge_type": "rent",
+        "monthly_amount": "2350.00"
+      }
+    ]
+  },
+  {
+    "identifier": "L-50057",
+    "account_identifier": "T-1074",
+    "property_identifier": "B-05",
+    "status": "ended",
+    "start_date": "2025-02-01",
+    "end_date": "2026-01-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0058",
+        "charge_type": "rent",
+        "monthly_amount": "1775.00"
+      }
+    ],
+    "contact_legacy_id": "O-3105"
+  },
+  {
+    "identifier": "L-50058",
+    "account_identifier": "T-1118",
+    "property_identifier": "B-07",
+    "status": "active",
+    "start_date": "2025-02-01",
+    "end_date": "2027-07-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0075",
+        "charge_type": "rent",
+        "monthly_amount": "1225.00"
+      }
+    ]
+  },
+  {
+    "identifier": "L-50059",
+    "account_identifier": "T-1121",
+    "property_identifier": "B-07",
+    "status": "active",
+    "start_date": "2025-02-01",
+    "end_date": "2027-01-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0077",
+        "charge_type": "rent",
+        "monthly_amount": "1500.00"
+      },
+      {
+        "unit_identifier": "U-0077",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3173"
+  },
+  {
+    "identifier": "L-50060",
+    "account_identifier": "T-1051",
+    "property_identifier": "B-01",
+    "status": "ended",
+    "start_date": "2025-03-01",
+    "end_date": "2026-02-28",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0001",
+        "charge_type": "rent",
+        "monthly_amount": "2000.00"
+      }
+    ],
+    "contact_legacy_id": "O-3069"
+  },
+  {
+    "identifier": "L-50061",
+    "account_identifier": "T-1084",
+    "property_identifier": "B-02",
+    "status": "active",
+    "start_date": "2025-03-01",
+    "end_date": "2027-02-28",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0017",
+        "charge_type": "rent",
+        "monthly_amount": "1300.00"
+      },
+      {
+        "unit_identifier": "U-0017",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3120"
+  },
+  {
+    "identifier": "L-50062",
+    "account_identifier": "T-1029",
+    "property_identifier": "B-02",
+    "status": "active",
+    "start_date": "2025-03-01",
+    "end_date": "2027-02-28",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0020",
+        "charge_type": "rent",
+        "monthly_amount": "2325.00"
+      }
+    ],
+    "contact_legacy_id": "O-3040"
+  },
+  {
+    "identifier": "L-50063",
+    "account_identifier": "T-1143",
+    "property_identifier": "B-04",
+    "status": "ended",
+    "start_date": "2025-03-01",
+    "end_date": "2026-02-28",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0037",
+        "charge_type": "rent",
+        "monthly_amount": "1250.00"
+      },
+      {
+        "unit_identifier": "U-0037",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3203"
+  },
+  {
+    "identifier": "L-50064",
+    "account_identifier": "T-1025",
+    "property_identifier": "B-04",
+    "status": "ended",
+    "start_date": "2025-03-01",
+    "end_date": "2026-02-28",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0039",
+        "charge_type": "rent",
+        "monthly_amount": "2300.00"
+      },
+      {
+        "unit_identifier": "U-0039",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3033"
+  },
+  {
+    "identifier": "L-50065",
+    "account_identifier": "T-1088",
+    "property_identifier": "B-04",
+    "status": "ended",
+    "start_date": "2025-03-01",
+    "end_date": "2026-02-28",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0040",
+        "charge_type": "rent",
+        "monthly_amount": "1975.00"
+      }
+    ],
+    "contact_legacy_id": "O-3124"
+  },
+  {
+    "identifier": "L-50066",
+    "account_identifier": "T-1115",
+    "property_identifier": "B-05",
+    "status": "active",
+    "start_date": "2025-03-01",
+    "end_date": "2027-02-28",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0047",
+        "charge_type": "rent",
+        "monthly_amount": "2325.00"
+      },
+      {
+        "unit_identifier": "U-0047",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3165"
+  },
+  {
+    "identifier": "L-50067",
+    "account_identifier": "T-1002",
+    "property_identifier": "B-06",
+    "status": "active",
+    "start_date": "2025-03-01",
+    "end_date": "2027-02-28",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0060",
+        "charge_type": "rent",
+        "monthly_amount": "2200.00"
+      },
+      {
+        "unit_identifier": "U-0060",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      },
+      {
+        "unit_identifier": "U-0060",
+        "charge_type": "storage",
+        "monthly_amount": "40.00"
+      }
+    ],
+    "contact_legacy_id": "O-3002"
+  },
+  {
+    "identifier": "L-50068",
+    "account_identifier": "T-1018",
+    "property_identifier": "B-07",
+    "status": "active",
+    "start_date": "2025-03-01",
+    "end_date": "2027-02-28",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0079",
+        "charge_type": "rent",
+        "monthly_amount": "1825.00"
+      },
+      {
+        "unit_identifier": "U-0079",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ],
+    "contact_legacy_id": "O-3023"
+  },
+  {
+    "identifier": "L-50069",
+    "account_identifier": "T-1113",
+    "property_identifier": "B-04",
+    "status": "ended",
+    "start_date": "2025-04-01",
+    "end_date": "2026-03-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0042",
+        "charge_type": "rent",
+        "monthly_amount": "1175.00"
+      }
+    ],
+    "contact_legacy_id": "O-3162"
+  },
+  {
+    "identifier": "L-50070",
+    "account_identifier": "T-1124",
+    "property_identifier": "B-04",
+    "status": "ended",
+    "start_date": "2025-04-01",
+    "end_date": "2026-03-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0043",
+        "charge_type": "rent",
+        "monthly_amount": "1225.00"
+      }
+    ],
+    "contact_legacy_id": "O-3178"
+  },
+  {
+    "identifier": "L-50071",
+    "account_identifier": "T-1064",
+    "property_identifier": "B-04",
+    "status": "active",
+    "start_date": "2025-04-01",
+    "end_date": "2027-09-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0045",
+        "charge_type": "rent",
+        "monthly_amount": "1925.00"
+      }
+    ],
+    "contact_legacy_id": "O-3087"
+  },
+  {
+    "identifier": "L-50072",
+    "account_identifier": "T-1128",
+    "property_identifier": "B-05",
+    "status": "ended",
+    "start_date": "2025-04-01",
+    "end_date": "2026-03-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0050",
+        "charge_type": "rent",
+        "monthly_amount": "1525.00"
+      }
+    ],
+    "contact_legacy_id": "O-3183"
+  },
+  {
+    "identifier": "L-50073",
+    "account_identifier": "T-1076",
+    "property_identifier": "B-06",
+    "status": "ended",
+    "start_date": "2025-04-01",
+    "end_date": "2026-03-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0061",
+        "charge_type": "rent",
+        "monthly_amount": "2175.00"
+      },
+      {
+        "unit_identifier": "U-0061",
+        "charge_type": "storage",
+        "monthly_amount": "40.00"
+      }
+    ],
+    "contact_legacy_id": "O-3108"
+  },
+  {
+    "identifier": "L-50076",
+    "account_identifier": "T-1138",
+    "property_identifier": "B-02",
+    "status": "cancelled",
+    "start_date": "2025-05-01",
+    "end_date": "2026-04-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0013",
+        "charge_type": "rent",
+        "monthly_amount": "1550.00"
+      }
+    ],
+    "contact_legacy_id": "O-3197"
+  },
+  {
+    "identifier": "L-50077",
+    "account_identifier": "T-1126",
+    "property_identifier": "B-02",
+    "status": "ended",
+    "start_date": "2025-05-01",
+    "end_date": "2026-04-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0015",
+        "charge_type": "rent",
+        "monthly_amount": "1800.00"
+      }
+    ]
+  },
+  {
+    "identifier": "L-50078",
+    "account_identifier": "T-1090",
+    "property_identifier": "B-02",
+    "status": "ended",
+    "start_date": "2025-05-01",
+    "end_date": "2026-04-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0016",
+        "charge_type": "rent",
+        "monthly_amount": "1475.00"
+      },
+      {
+        "unit_identifier": "U-0016",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3126"
+  },
+  {
+    "identifier": "L-50080",
+    "account_identifier": "T-1058",
+    "property_identifier": "B-04",
+    "status": "active",
+    "start_date": "2025-05-01",
+    "end_date": "2027-04-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0038",
+        "charge_type": "rent",
+        "monthly_amount": "1775.00"
+      }
+    ],
+    "contact_legacy_id": "O-3079",
+    "po_number": "PO-52837"
+  },
+  {
+    "identifier": "L-50081",
+    "account_identifier": "T-1085",
+    "property_identifier": "B-05",
+    "status": "ended",
+    "start_date": "2025-05-01",
+    "end_date": "2026-04-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0053",
+        "charge_type": "rent",
+        "monthly_amount": "1900.00"
+      }
+    ],
+    "contact_legacy_id": "O-3121"
+  },
+  {
+    "identifier": "L-50082",
+    "account_identifier": "T-1094",
+    "property_identifier": "B-05",
+    "status": "active",
+    "start_date": "2025-05-01",
+    "end_date": "2026-10-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0057",
+        "charge_type": "rent",
+        "monthly_amount": "1175.00"
+      }
+    ],
+    "contact_legacy_id": "O-3133"
+  },
+  {
+    "identifier": "L-50083",
+    "account_identifier": "T-1062",
+    "property_identifier": "B-07",
+    "status": "ended",
+    "start_date": "2025-05-01",
+    "end_date": "2026-04-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0073",
+        "charge_type": "rent",
+        "monthly_amount": "1750.00"
+      },
+      {
+        "unit_identifier": "U-0073",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ],
+    "contact_legacy_id": "O-3084"
+  },
+  {
+    "identifier": "L-50084",
+    "account_identifier": "T-1049",
+    "property_identifier": "B-07",
+    "status": "cancelled",
+    "start_date": "2025-05-01",
+    "end_date": "2026-04-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0082",
+        "charge_type": "rent",
+        "monthly_amount": "1775.00"
+      },
+      {
+        "unit_identifier": "U-0082",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ],
+    "contact_legacy_id": "O-3067"
+  },
+  {
+    "identifier": "L-50085",
+    "account_identifier": "T-1118",
+    "property_identifier": "B-01",
+    "status": "active",
+    "start_date": "2025-06-01",
+    "end_date": "2027-05-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0007",
+        "charge_type": "rent",
+        "monthly_amount": "1925.00"
+      }
+    ],
+    "contact_legacy_id": "O-3170"
+  },
+  {
+    "identifier": "L-50086",
+    "account_identifier": "T-1096",
+    "property_identifier": "B-01",
+    "status": "ended",
+    "start_date": "2025-06-01",
+    "end_date": "2026-05-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0009",
+        "charge_type": "rent",
+        "monthly_amount": "1425.00"
+      },
+      {
+        "unit_identifier": "U-0009",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3135"
+  },
+  {
+    "identifier": "L-50087",
+    "account_identifier": "T-1086",
+    "property_identifier": "B-02",
+    "status": "active",
+    "start_date": "2025-06-01",
+    "end_date": "2027-05-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0018",
+        "charge_type": "rent",
+        "monthly_amount": "1650.00"
+      }
+    ],
+    "contact_legacy_id": "O-3122"
+  },
+  {
+    "identifier": "L-50088",
+    "account_identifier": "T-1003",
+    "property_identifier": "B-02",
+    "status": "notice",
+    "start_date": "2025-06-01",
+    "end_date": "2026-11-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0021",
+        "charge_type": "rent",
+        "monthly_amount": "2200.00"
+      },
+      {
+        "unit_identifier": "U-0021",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ],
+    "contact_legacy_id": "O-3003"
+  },
+  {
+    "identifier": "L-50089",
+    "account_identifier": "T-1023",
+    "property_identifier": "B-02",
+    "status": "notice",
+    "start_date": "2025-06-01",
+    "end_date": "2026-11-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0023",
+        "charge_type": "rent",
+        "monthly_amount": "4250.00"
+      }
+    ],
+    "contact_legacy_id": "O-3030"
+  },
+  {
+    "identifier": "L-50090",
+    "account_identifier": "T-1131",
+    "property_identifier": "B-03",
+    "status": "cancelled",
+    "start_date": "2025-06-01",
+    "end_date": "2026-05-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0025",
+        "charge_type": "rent",
+        "monthly_amount": "1250.00"
+      },
+      {
+        "unit_identifier": "U-0025",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3188"
+  },
+  {
+    "identifier": "L-50091",
+    "account_identifier": "T-1118",
+    "property_identifier": "B-05",
+    "status": "notice",
+    "start_date": "2025-06-01",
+    "end_date": "2026-11-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0055",
+        "charge_type": "rent",
+        "monthly_amount": "1875.00"
+      }
+    ],
+    "contact_legacy_id": "O-3170"
+  },
+  {
+    "identifier": "L-50092",
+    "account_identifier": "T-1043",
+    "property_identifier": "B-05",
+    "status": "ended",
+    "start_date": "2025-06-01",
+    "end_date": "2026-05-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0056",
+        "charge_type": "rent",
+        "monthly_amount": "2000.00"
+      },
+      {
+        "unit_identifier": "U-0056",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3058"
+  },
+  {
+    "identifier": "L-50093",
+    "account_identifier": "T-1014",
+    "property_identifier": "B-06",
+    "status": "ended",
+    "start_date": "2025-06-01",
+    "end_date": "2026-05-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0067",
+        "charge_type": "rent",
+        "monthly_amount": "1450.00"
+      },
+      {
+        "unit_identifier": "U-0067",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3017"
+  },
+  {
+    "identifier": "L-50094",
+    "account_identifier": "T-1141",
+    "property_identifier": "B-01",
+    "status": "ended",
+    "start_date": "2025-07-01",
+    "end_date": "2026-06-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0012",
+        "charge_type": "rent",
+        "monthly_amount": "1200.00"
+      },
+      {
+        "unit_identifier": "U-0012",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ],
+    "contact_legacy_id": "O-3201"
+  },
+  {
+    "identifier": "L-50095",
+    "account_identifier": "T-1133",
+    "property_identifier": "B-02",
+    "status": "ended",
+    "start_date": "2025-07-01",
+    "end_date": "2026-06-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0014",
+        "charge_type": "rent",
+        "monthly_amount": "1225.00"
+      }
+    ],
+    "contact_legacy_id": "O-3190"
+  },
+  {
+    "identifier": "L-50096",
+    "account_identifier": "T-1020",
+    "property_identifier": "B-02",
+    "status": "cancelled",
+    "start_date": "2025-07-01",
+    "end_date": "2026-06-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0019",
+        "charge_type": "rent",
+        "monthly_amount": "1275.00"
+      },
+      {
+        "unit_identifier": "U-0019",
+        "charge_type": "storage",
+        "monthly_amount": "40.00"
+      }
+    ],
+    "contact_legacy_id": "O-3027"
+  },
+  {
+    "identifier": "L-50097",
+    "account_identifier": "T-1092",
+    "property_identifier": "B-03",
+    "status": "ended",
+    "start_date": "2025-07-01",
+    "end_date": "2026-06-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0034",
+        "charge_type": "rent",
+        "monthly_amount": "4275.00"
+      }
+    ],
+    "contact_legacy_id": "O-3130"
+  },
+  {
+    "identifier": "L-50098",
+    "account_identifier": "T-1017",
+    "property_identifier": "B-06",
+    "status": "ended",
+    "start_date": "2025-07-01",
+    "end_date": "2026-06-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0064",
+        "charge_type": "rent",
+        "monthly_amount": "1000.00"
+      },
+      {
+        "unit_identifier": "U-0064",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      },
+      {
+        "unit_identifier": "U-0064",
+        "charge_type": "storage",
+        "monthly_amount": "40.00"
+      }
+    ]
+  },
+  {
+    "identifier": "L-50099",
+    "account_identifier": "T-1080",
+    "property_identifier": "B-01",
+    "status": "cancelled",
+    "start_date": "2025-08-01",
+    "end_date": "2026-07-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0005",
+        "charge_type": "rent",
+        "monthly_amount": "1750.00"
+      }
+    ],
+    "contact_legacy_id": "O-3115"
+  },
+  {
+    "identifier": "L-50100",
+    "account_identifier": "T-1093",
+    "property_identifier": "B-01",
+    "status": "ended",
+    "start_date": "2025-08-01",
+    "end_date": "2026-07-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0006",
+        "charge_type": "rent",
+        "monthly_amount": "1700.00"
+      }
+    ],
+    "contact_legacy_id": "O-3131"
+  },
+  {
+    "identifier": "L-50101",
+    "account_identifier": "T-1011",
+    "property_identifier": "B-02",
+    "status": "active",
+    "start_date": "2025-08-01",
+    "end_date": "2027-01-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0019",
+        "charge_type": "rent",
+        "monthly_amount": "1275.00"
+      }
+    ],
+    "contact_legacy_id": "O-3014"
+  },
+  {
+    "identifier": "L-50103",
+    "account_identifier": "T-1026",
+    "property_identifier": "B-04",
+    "status": "active",
+    "start_date": "2025-08-01",
+    "end_date": "2027-07-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0046",
+        "charge_type": "rent",
+        "monthly_amount": "1825.00"
+      },
+      {
+        "unit_identifier": "U-0046",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3035",
+    "po_number": "PO-16415"
+  },
+  {
+    "identifier": "L-50104",
+    "account_identifier": "T-1106",
+    "property_identifier": "B-05",
+    "status": "cancelled",
+    "start_date": "2025-08-01",
+    "end_date": "2026-07-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0049",
+        "charge_type": "rent",
+        "monthly_amount": "1450.00"
+      },
+      {
+        "unit_identifier": "U-0049",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3150"
+  },
+  {
+    "identifier": "L-50105",
+    "account_identifier": "T-1053",
+    "property_identifier": "B-05",
+    "status": "ended",
+    "start_date": "2025-08-01",
+    "end_date": "2026-07-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0051",
+        "charge_type": "rent",
+        "monthly_amount": "1125.00"
+      },
+      {
+        "unit_identifier": "U-0051",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3072"
+  },
+  {
+    "identifier": "L-50106",
+    "account_identifier": "T-1130",
+    "property_identifier": "B-05",
+    "status": "cancelled",
+    "start_date": "2025-08-01",
+    "end_date": "2026-07-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0052",
+        "charge_type": "rent",
+        "monthly_amount": "1275.00"
+      }
+    ],
+    "contact_legacy_id": "O-3186"
+  },
+  {
+    "identifier": "L-50108",
+    "account_identifier": "T-1058",
+    "property_identifier": "B-01",
+    "status": "active",
+    "start_date": "2025-09-01",
+    "end_date": "2027-08-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0002",
+        "charge_type": "rent",
+        "monthly_amount": "1675.00"
+      },
+      {
+        "unit_identifier": "U-0002",
+        "charge_type": "storage",
+        "monthly_amount": "40.00"
+      }
+    ],
+    "contact_legacy_id": "O-3079",
+    "po_number": "PO-86871"
+  },
+  {
+    "identifier": "L-50109",
+    "account_identifier": "T-1060",
+    "property_identifier": "B-05",
+    "status": "ended",
+    "start_date": "2025-09-01",
+    "end_date": "2026-08-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0052",
+        "charge_type": "rent",
+        "monthly_amount": "1225.00"
+      }
+    ],
+    "contact_legacy_id": "O-3082"
+  },
+  {
+    "identifier": "L-50110",
+    "account_identifier": "T-1125",
+    "property_identifier": "B-06",
+    "status": "active",
+    "start_date": "2025-09-01",
+    "end_date": "2027-08-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0062",
+        "charge_type": "rent",
+        "monthly_amount": "1250.00"
+      },
+      {
+        "unit_identifier": "U-0062",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      },
+      {
+        "unit_identifier": "U-0062",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ]
+  },
+  {
+    "identifier": "L-50111",
+    "account_identifier": "T-1012",
+    "property_identifier": "B-06",
+    "status": "ended",
+    "start_date": "2025-09-01",
+    "end_date": "2026-08-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0069",
+        "charge_type": "rent",
+        "monthly_amount": "1525.00"
+      },
+      {
+        "unit_identifier": "U-0069",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3015"
+  },
+  {
+    "identifier": "L-50112",
+    "account_identifier": "T-1129",
+    "property_identifier": "B-07",
+    "status": "active",
+    "start_date": "2025-09-01",
+    "end_date": "2027-08-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0071",
+        "charge_type": "rent",
+        "monthly_amount": "2200.00"
+      },
+      {
+        "unit_identifier": "U-0071",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ]
+  },
+  {
+    "identifier": "L-50113",
+    "account_identifier": "T-1081",
+    "property_identifier": "B-06",
+    "status": "active",
+    "start_date": "2025-10-01",
+    "end_date": "2027-03-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0066",
+        "charge_type": "rent",
+        "monthly_amount": "1850.00"
+      },
+      {
+        "unit_identifier": "U-0066",
+        "charge_type": "storage",
+        "monthly_amount": "40.00"
+      }
+    ],
+    "contact_legacy_id": "O-3116"
+  },
+  {
+    "identifier": "L-50114",
+    "account_identifier": "T-1122",
+    "property_identifier": "B-03",
+    "status": "active",
+    "start_date": "2025-11-01",
+    "end_date": "2026-10-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0026",
+        "charge_type": "rent",
+        "monthly_amount": "1500.00"
+      }
+    ],
+    "contact_legacy_id": "O-3175"
+  },
+  {
+    "identifier": "L-50115",
+    "account_identifier": "T-1097",
+    "property_identifier": "B-03",
+    "status": "active",
+    "start_date": "2025-11-01",
+    "end_date": "2027-10-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0035",
+        "charge_type": "rent",
+        "monthly_amount": "4225.00"
+      }
+    ],
+    "contact_legacy_id": "O-3137"
+  },
+  {
+    "identifier": "L-50116",
+    "account_identifier": "T-1066",
+    "property_identifier": "B-04",
+    "status": "active",
+    "start_date": "2025-11-01",
+    "end_date": "2027-10-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0044",
+        "charge_type": "rent",
+        "monthly_amount": "1375.00"
+      },
+      {
+        "unit_identifier": "U-0044",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3091"
+  },
+  {
+    "identifier": "L-50117",
+    "account_identifier": "T-1037",
+    "property_identifier": "B-06",
+    "status": "notice",
+    "start_date": "2025-11-01",
+    "end_date": "2026-10-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0068",
+        "charge_type": "rent",
+        "monthly_amount": "1500.00"
+      },
+      {
+        "unit_identifier": "U-0068",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ]
+  },
+  {
+    "identifier": "L-50118",
+    "account_identifier": "T-1078",
+    "property_identifier": "B-07",
+    "status": "notice",
+    "start_date": "2025-11-01",
+    "end_date": "2026-10-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0072",
+        "charge_type": "rent",
+        "monthly_amount": "1475.00"
+      }
+    ],
+    "contact_legacy_id": "O-3111"
+  },
+  {
+    "identifier": "L-50119",
+    "account_identifier": "T-1068",
+    "property_identifier": "B-07",
+    "status": "notice",
+    "start_date": "2025-11-01",
+    "end_date": "2026-10-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0081",
+        "charge_type": "rent",
+        "monthly_amount": "1800.00"
+      }
+    ],
+    "contact_legacy_id": "O-3095"
+  },
+  {
+    "identifier": "L-50120",
+    "account_identifier": "T-1144",
+    "property_identifier": "B-01",
+    "status": "notice",
+    "start_date": "2025-12-01",
+    "end_date": "2026-11-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0004",
+        "charge_type": "rent",
+        "monthly_amount": "1350.00"
+      },
+      {
+        "unit_identifier": "U-0004",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3204"
+  },
+  {
+    "identifier": "L-50121",
+    "account_identifier": "T-1118",
+    "property_identifier": "B-01",
+    "status": "active",
+    "start_date": "2025-12-01",
+    "end_date": "2026-11-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0010",
+        "charge_type": "rent",
+        "monthly_amount": "1925.00"
+      }
+    ],
+    "contact_legacy_id": "O-3170"
+  },
+  {
+    "identifier": "L-50123",
+    "account_identifier": "T-1021",
+    "property_identifier": "B-03",
+    "status": "active",
+    "start_date": "2025-12-01",
+    "end_date": "2026-11-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0030",
+        "charge_type": "rent",
+        "monthly_amount": "1725.00"
+      }
+    ],
+    "contact_legacy_id": "O-3028"
+  },
+  {
+    "identifier": "L-50124",
+    "account_identifier": "T-1109",
+    "property_identifier": "B-05",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2027-12-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0048",
+        "charge_type": "rent",
+        "monthly_amount": "1250.00"
+      },
+      {
+        "unit_identifier": "U-0048",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      },
+      {
+        "unit_identifier": "U-0048",
+        "charge_type": "storage",
+        "monthly_amount": "40.00"
+      }
+    ],
+    "contact_legacy_id": "O-3128"
+  },
+  {
+    "identifier": "L-50125",
+    "account_identifier": "T-1134",
+    "property_identifier": "B-05",
+    "status": "notice",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0054",
+        "charge_type": "rent",
+        "monthly_amount": "1825.00"
+      },
+      {
+        "unit_identifier": "U-0054",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ]
+  },
+  {
+    "identifier": "L-50126",
+    "account_identifier": "T-1107",
+    "property_identifier": "B-05",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0059",
+        "charge_type": "rent",
+        "monthly_amount": "4250.00"
+      }
+    ],
+    "contact_legacy_id": "O-3152"
+  },
+  {
+    "identifier": "L-50127",
+    "account_identifier": "T-1136",
+    "property_identifier": "B-06",
+    "status": "notice",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0063",
+        "charge_type": "rent",
+        "monthly_amount": "1425.00"
+      }
+    ],
+    "contact_legacy_id": "O-3193"
+  },
+  {
+    "identifier": "L-50128",
+    "account_identifier": "T-1063",
+    "property_identifier": "B-07",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0076",
+        "charge_type": "rent",
+        "monthly_amount": "1500.00"
+      },
+      {
+        "unit_identifier": "U-0076",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      },
+      {
+        "unit_identifier": "U-0076",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ],
+    "contact_legacy_id": "O-3085"
+  },
+  {
+    "identifier": "L-50129",
+    "account_identifier": "T-1112",
+    "property_identifier": "B-03",
+    "status": "active",
+    "start_date": "2026-02-01",
+    "end_date": "2027-01-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0031",
+        "charge_type": "rent",
+        "monthly_amount": "2400.00"
+      }
+    ],
+    "contact_legacy_id": "O-3160"
+  },
+  {
+    "identifier": "L-50130",
+    "account_identifier": "T-1069",
+    "property_identifier": "B-05",
+    "status": "active",
+    "start_date": "2026-02-01",
+    "end_date": "2027-01-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0058",
+        "charge_type": "rent",
+        "monthly_amount": "1825.00"
+      },
+      {
+        "unit_identifier": "U-0058",
+        "charge_type": "storage",
+        "monthly_amount": "40.00"
+      }
+    ]
+  },
+  {
+    "identifier": "L-50131",
+    "account_identifier": "T-1058",
+    "property_identifier": "B-01",
+    "status": "active",
+    "start_date": "2026-03-01",
+    "end_date": "2027-02-28",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0001",
+        "charge_type": "rent",
+        "monthly_amount": "2050.00"
+      }
+    ],
+    "contact_legacy_id": "O-3079",
+    "po_number": "PO-94528"
+  },
+  {
+    "identifier": "L-50132",
+    "account_identifier": "T-1002",
+    "property_identifier": "B-01",
+    "status": "active",
+    "start_date": "2026-03-01",
+    "end_date": "2027-02-28",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0011",
+        "charge_type": "rent",
+        "monthly_amount": "2375.00"
+      },
+      {
+        "unit_identifier": "U-0011",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ],
+    "contact_legacy_id": "O-3002"
+  },
+  {
+    "identifier": "L-50133",
+    "account_identifier": "T-1022",
+    "property_identifier": "B-04",
+    "status": "active",
+    "start_date": "2026-03-01",
+    "end_date": "2027-02-28",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0037",
+        "charge_type": "rent",
+        "monthly_amount": "1300.00"
+      }
+    ],
+    "contact_legacy_id": "O-3029"
+  },
+  {
+    "identifier": "L-50134",
+    "account_identifier": "T-1112",
+    "property_identifier": "B-04",
+    "status": "active",
+    "start_date": "2026-03-01",
+    "end_date": "2027-08-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0039",
+        "charge_type": "rent",
+        "monthly_amount": "2350.00"
+      }
+    ],
+    "contact_legacy_id": "O-3160"
+  },
+  {
+    "identifier": "L-50135",
+    "account_identifier": "T-1019",
+    "property_identifier": "B-03",
+    "status": "active",
+    "start_date": "2026-04-01",
+    "end_date": "2027-03-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0029",
+        "charge_type": "rent",
+        "monthly_amount": "1575.00"
+      },
+      {
+        "unit_identifier": "U-0029",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      },
+      {
+        "unit_identifier": "U-0029",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ],
+    "contact_legacy_id": "O-3025"
+  },
+  {
+    "identifier": "L-50136",
+    "account_identifier": "T-1002",
+    "property_identifier": "B-05",
+    "status": "active",
+    "start_date": "2026-04-01",
+    "end_date": "2027-03-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0050",
+        "charge_type": "rent",
+        "monthly_amount": "1575.00"
+      }
+    ],
+    "contact_legacy_id": "O-3002"
+  },
+  {
+    "identifier": "L-50137",
+    "account_identifier": "T-1112",
+    "property_identifier": "B-06",
+    "status": "active",
+    "start_date": "2026-04-01",
+    "end_date": "2027-03-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0061",
+        "charge_type": "rent",
+        "monthly_amount": "2225.00"
+      }
+    ],
+    "contact_legacy_id": "O-3160"
+  },
+  {
+    "identifier": "L-50138",
+    "account_identifier": "T-1006",
+    "property_identifier": "B-02",
+    "status": "active",
+    "start_date": "2026-05-01",
+    "end_date": "2027-10-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0015",
+        "charge_type": "rent",
+        "monthly_amount": "1850.00"
+      }
+    ],
+    "contact_legacy_id": "O-3006"
+  },
+  {
+    "identifier": "L-50139",
+    "account_identifier": "T-1002",
+    "property_identifier": "B-02",
+    "status": "active",
+    "start_date": "2026-05-01",
+    "end_date": "2027-10-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0016",
+        "charge_type": "rent",
+        "monthly_amount": "1525.00"
+      }
+    ],
+    "contact_legacy_id": "O-3002"
+  },
+  {
+    "identifier": "L-50141",
+    "account_identifier": "T-1099",
+    "property_identifier": "B-07",
+    "status": "active",
+    "start_date": "2026-05-01",
+    "end_date": "2027-10-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0073",
+        "charge_type": "rent",
+        "monthly_amount": "1800.00"
+      }
+    ],
+    "contact_legacy_id": "O-3140"
+  },
+  {
+    "identifier": "L-50143",
+    "account_identifier": "T-1091",
+    "property_identifier": "B-05",
+    "status": "active",
+    "start_date": "2026-06-01",
+    "end_date": "2027-05-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0056",
+        "charge_type": "rent",
+        "monthly_amount": "2050.00"
+      },
+      {
+        "unit_identifier": "U-0056",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ],
+    "po_number": "PO-55674"
+  },
+  {
+    "identifier": "L-50144",
+    "account_identifier": "T-1101",
+    "property_identifier": "B-06",
+    "status": "active",
+    "start_date": "2026-06-01",
+    "end_date": "2027-05-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0067",
+        "charge_type": "rent",
+        "monthly_amount": "1500.00"
+      },
+      {
+        "unit_identifier": "U-0067",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3142"
+  },
+  {
+    "identifier": "L-50145",
+    "account_identifier": "T-1118",
+    "property_identifier": "B-07",
+    "status": "active",
+    "start_date": "2026-06-01",
+    "end_date": "2027-05-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0078",
+        "charge_type": "rent",
+        "monthly_amount": "1475.00"
+      },
+      {
+        "unit_identifier": "U-0078",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ],
+    "contact_legacy_id": "O-3170"
+  },
+  {
+    "identifier": "L-50146",
+    "account_identifier": "T-1127",
+    "property_identifier": "B-01",
+    "status": "active",
+    "start_date": "2026-07-01",
+    "end_date": "2028-06-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0012",
+        "charge_type": "rent",
+        "monthly_amount": "1250.00"
+      }
+    ],
+    "contact_legacy_id": "O-3182"
+  },
+  {
+    "identifier": "L-50148",
+    "account_identifier": "T-1097",
+    "property_identifier": "B-03",
+    "status": "active",
+    "start_date": "2026-07-01",
+    "end_date": "2028-06-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0034",
+        "charge_type": "rent",
+        "monthly_amount": "4325.00"
+      }
+    ],
+    "contact_legacy_id": "O-3137"
+  },
+  {
+    "identifier": "L-50149",
+    "account_identifier": "T-1091",
+    "property_identifier": "B-06",
+    "status": "active",
+    "start_date": "2026-07-01",
+    "end_date": "2027-12-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0064",
+        "charge_type": "rent",
+        "monthly_amount": "1050.00"
+      }
+    ],
+    "contact_legacy_id": "O-3155",
+    "po_number": "PO-81454"
+  },
+  {
+    "identifier": "L-50150",
+    "account_identifier": "T-1139",
+    "property_identifier": "B-01",
+    "status": "active",
+    "start_date": "2026-08-01",
+    "end_date": "2027-07-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0006",
+        "charge_type": "rent",
+        "monthly_amount": "1750.00"
+      },
+      {
+        "unit_identifier": "U-0006",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ],
+    "contact_legacy_id": "O-3198"
+  },
+  {
+    "identifier": "L-50151",
+    "account_identifier": "T-1112",
+    "property_identifier": "B-04",
+    "status": "active",
+    "start_date": "2026-08-01",
+    "end_date": "2028-07-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0036",
+        "charge_type": "rent",
+        "monthly_amount": "1450.00"
+      },
+      {
+        "unit_identifier": "U-0036",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      },
+      {
+        "unit_identifier": "U-0036",
+        "charge_type": "storage",
+        "monthly_amount": "40.00"
+      }
+    ],
+    "contact_legacy_id": "O-3160"
+  },
+  {
+    "identifier": "L-50152",
+    "account_identifier": "T-1114",
+    "property_identifier": "B-05",
+    "status": "active",
+    "start_date": "2026-08-01",
+    "end_date": "2027-07-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0051",
+        "charge_type": "rent",
+        "monthly_amount": "1175.00"
+      },
+      {
+        "unit_identifier": "U-0051",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ],
+    "contact_legacy_id": "O-3164"
+  },
+  {
+    "identifier": "L-50153",
+    "account_identifier": "T-1026",
+    "property_identifier": "B-05",
+    "status": "active",
+    "start_date": "2026-09-01",
+    "end_date": "2028-08-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0052",
+        "charge_type": "rent",
+        "monthly_amount": "1275.00"
+      }
+    ],
+    "contact_legacy_id": "O-3035",
+    "po_number": "PO-65906"
+  },
+  {
+    "identifier": "L-50154",
+    "account_identifier": "T-1026",
+    "property_identifier": "B-06",
+    "status": "active",
+    "start_date": "2026-09-01",
+    "end_date": "2027-08-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0069",
+        "charge_type": "rent",
+        "monthly_amount": "1575.00"
+      },
+      {
+        "unit_identifier": "U-0069",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3035",
+    "po_number": "PO-96924"
+  },
+  {
+    "identifier": "L-50155",
+    "account_identifier": "T-1142",
+    "property_identifier": "B-02",
+    "status": "pending",
+    "start_date": "2026-11-01",
+    "end_date": "2027-10-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0014",
+        "charge_type": "rent",
+        "monthly_amount": "1275.00"
+      }
+    ],
+    "contact_legacy_id": "O-3202"
+  },
+  {
+    "identifier": "L-50156",
+    "account_identifier": "T-1073",
+    "property_identifier": "B-03",
+    "status": "pending",
+    "start_date": "2026-11-01",
+    "end_date": "2027-10-31",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0025",
+        "charge_type": "rent",
+        "monthly_amount": "1250.00"
+      },
+      {
+        "unit_identifier": "U-0025",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ],
+    "contact_legacy_id": "O-3103"
+  },
+  {
+    "identifier": "L-50157",
+    "account_identifier": "T-1030",
+    "property_identifier": "B-01",
+    "status": "pending",
+    "start_date": "2026-12-01",
+    "end_date": "2027-11-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0003",
+        "charge_type": "rent",
+        "monthly_amount": "2175.00"
+      },
+      {
+        "unit_identifier": "U-0003",
+        "charge_type": "parking",
+        "monthly_amount": "75.00"
+      }
+    ]
+  },
+  {
+    "identifier": "L-50158",
+    "account_identifier": "T-1039",
+    "property_identifier": "B-01",
+    "status": "pending",
+    "start_date": "2026-12-01",
+    "end_date": "2027-11-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0005",
+        "charge_type": "rent",
+        "monthly_amount": "1750.00"
+      }
+    ],
+    "contact_legacy_id": "O-3053"
+  },
+  {
+    "identifier": "L-50159",
+    "account_identifier": "T-1108",
+    "property_identifier": "B-01",
+    "status": "pending",
+    "start_date": "2026-12-01",
+    "end_date": "2027-11-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0009",
+        "charge_type": "rent",
+        "monthly_amount": "1475.00"
+      }
+    ],
+    "contact_legacy_id": "O-3153"
+  },
+  {
+    "identifier": "L-50160",
+    "account_identifier": "T-1077",
+    "property_identifier": "B-03",
+    "status": "pending",
+    "start_date": "2026-12-01",
+    "end_date": "2027-11-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0033",
+        "charge_type": "rent",
+        "monthly_amount": "1725.00"
+      }
+    ],
+    "contact_legacy_id": "O-3110"
+  },
+  {
+    "identifier": "L-50161",
+    "account_identifier": "T-1041",
+    "property_identifier": "B-04",
+    "status": "pending",
+    "start_date": "2026-12-01",
+    "end_date": "2027-11-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0040",
+        "charge_type": "rent",
+        "monthly_amount": "2025.00"
+      }
+    ],
+    "contact_legacy_id": "O-3055"
+  },
+  {
+    "identifier": "L-50162",
+    "account_identifier": "T-1117",
+    "property_identifier": "B-04",
+    "status": "pending",
+    "start_date": "2026-12-01",
+    "end_date": "2027-11-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0041",
+        "charge_type": "rent",
+        "monthly_amount": "1375.00"
+      },
+      {
+        "unit_identifier": "U-0041",
+        "charge_type": "pet",
+        "monthly_amount": "50.00"
+      }
+    ],
+    "contact_legacy_id": "O-3168"
+  },
+  {
+    "identifier": "L-50163",
+    "account_identifier": "T-1095",
+    "property_identifier": "B-04",
+    "status": "pending",
+    "start_date": "2026-12-01",
+    "end_date": "2027-11-30",
+    "charge_lines": [
+      {
+        "unit_identifier": "U-0043",
+        "charge_type": "rent",
+        "monthly_amount": "1275.00"
+      }
+    ]
+  }
+]
